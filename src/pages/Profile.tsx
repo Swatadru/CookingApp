@@ -12,7 +12,7 @@ export const Profile = () => {
 
   return (
     <div className="pt-32 pb-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto min-h-screen relative">
-      
+
       {/* Header Profile Section */}
       <header className="mb-16 flex flex-col md:flex-row items-center md:items-end gap-8 reveal-up">
         <div className="w-32 h-32 rounded-full bg-[#111111] overflow-hidden border-4 border-surface shadow-xl relative group cursor-pointer flex items-center justify-center">
@@ -27,7 +27,7 @@ export const Profile = () => {
             <span className="material-symbols-outlined text-sm">stars</span>
             Level 12 • Artisan Poissonnier
           </p>
-          <p className="text-on-surface-variant text-sm">Joined June 2024</p>
+          <p className="text-on-surface-variant text-sm">Joined June 2026</p>
         </div>
         <div className="md:ml-auto">
           <button className="bg-surface-container text-primary px-6 py-2 rounded-full font-label-sm hover:bg-surface-variant transition-colors flex items-center gap-2 border border-outline-variant/30">
@@ -38,10 +38,10 @@ export const Profile = () => {
       </header>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter stagger-children">
-        
+
         {/* Left Column: Preferences */}
         <div className="lg:col-span-8 space-y-8">
-          
+
           {/* Culinary Skill Level */}
           <section className="glass-card p-8 rounded-3xl bg-surface-container-low/60 shadow-sm border border-outline-variant/20 hover:shadow-lg transition-shadow duration-300">
             <div className="flex items-center gap-3 mb-6">
@@ -53,23 +53,23 @@ export const Profile = () => {
                 <p className="text-xs text-on-surface-variant">Powers the Adaptive Instruction Rewriter</p>
               </div>
             </div>
-            
+
             <div className="flex bg-surface-container p-1 rounded-xl w-[340px] relative">
-              <button 
+              <button
                 onClick={() => setSkillLevel('beginner')}
                 className={`flex-1 py-2.5 rounded-lg font-label-sm transition-all duration-300 relative z-10 text-center ${skillLevel === 'beginner' ? 'text-surface' : 'text-on-surface-variant hover:text-primary'}`}
               >
                 Beginner
               </button>
-              <button 
+              <button
                 onClick={() => setSkillLevel('pro')}
                 className={`flex-1 py-2.5 rounded-lg font-label-sm transition-all duration-300 relative z-10 text-center ${skillLevel === 'pro' ? 'text-surface' : 'text-on-surface-variant hover:text-primary'}`}
               >
                 Professional Chef
               </button>
-              <div 
+              <div
                 className="absolute top-1 bottom-1 bg-primary rounded-lg transition-transform duration-300 shadow-sm z-0"
-                style={{ 
+                style={{
                   width: 'calc(50% - 4px)',
                   left: '4px',
                   transform: skillLevel === 'beginner' ? 'translateX(0)' : 'translateX(100%)'
@@ -77,7 +77,7 @@ export const Profile = () => {
               ></div>
             </div>
             <p className="text-sm text-on-surface-variant mt-4 leading-relaxed max-w-xl">
-              {skillLevel === 'pro' 
+              {skillLevel === 'pro'
                 ? "Recipes will be generated using professional culinary terminology (e.g. 'macedoine', 'beurre monté') and will assume you possess advanced knife skills and temperature control intuition."
                 : "Recipes will be generated using clear, descriptive language with step-by-step visual cues to help you master fundamental techniques safely."}
             </p>
@@ -101,28 +101,28 @@ export const Profile = () => {
                   <span className="font-bold text-primary block">Vegan</span>
                   <span className="text-xs text-on-surface-variant">No animal products</span>
                 </div>
-                <input type="checkbox" className="w-5 h-5 accent-tertiary rounded" checked={dietary.vegan} onChange={(e) => setDietary({...dietary, vegan: e.target.checked})} />
+                <input type="checkbox" className="w-5 h-5 accent-tertiary rounded" checked={dietary.vegan} onChange={(e) => setDietary({ ...dietary, vegan: e.target.checked })} />
               </label>
               <label className={`flex items-center justify-between p-4 rounded-xl border transition-all cursor-pointer ${dietary.glutenFree ? 'bg-tertiary/10 border-tertiary/50' : 'bg-surface border-outline-variant/30 hover:border-tertiary/30'}`}>
                 <div>
                   <span className="font-bold text-primary block">Gluten-Free</span>
                   <span className="text-xs text-on-surface-variant">Strict celiac protocol</span>
                 </div>
-                <input type="checkbox" className="w-5 h-5 accent-tertiary rounded" checked={dietary.glutenFree} onChange={(e) => setDietary({...dietary, glutenFree: e.target.checked})} />
+                <input type="checkbox" className="w-5 h-5 accent-tertiary rounded" checked={dietary.glutenFree} onChange={(e) => setDietary({ ...dietary, glutenFree: e.target.checked })} />
               </label>
               <label className={`flex items-center justify-between p-4 rounded-xl border transition-all cursor-pointer ${dietary.nutAllergy ? 'bg-error/10 border-error/50' : 'bg-surface border-outline-variant/30 hover:border-error/30'}`}>
                 <div>
                   <span className="font-bold text-primary block">Nut Allergy</span>
                   <span className="text-xs text-on-surface-variant">Severe anaphylaxis risk</span>
                 </div>
-                <input type="checkbox" className="w-5 h-5 accent-error rounded" checked={dietary.nutAllergy} onChange={(e) => setDietary({...dietary, nutAllergy: e.target.checked})} />
+                <input type="checkbox" className="w-5 h-5 accent-error rounded" checked={dietary.nutAllergy} onChange={(e) => setDietary({ ...dietary, nutAllergy: e.target.checked })} />
               </label>
               <label className={`flex items-center justify-between p-4 rounded-xl border transition-all cursor-pointer ${dietary.pescatarian ? 'bg-tertiary/10 border-tertiary/50' : 'bg-surface border-outline-variant/30 hover:border-tertiary/30'}`}>
                 <div>
                   <span className="font-bold text-primary block">Pescatarian</span>
                   <span className="text-xs text-on-surface-variant">Seafood allowed</span>
                 </div>
-                <input type="checkbox" className="w-5 h-5 accent-tertiary rounded" checked={dietary.pescatarian} onChange={(e) => setDietary({...dietary, pescatarian: e.target.checked})} />
+                <input type="checkbox" className="w-5 h-5 accent-tertiary rounded" checked={dietary.pescatarian} onChange={(e) => setDietary({ ...dietary, pescatarian: e.target.checked })} />
               </label>
             </div>
           </section>
@@ -131,7 +131,7 @@ export const Profile = () => {
 
         {/* Right Column: Hardware & Account */}
         <div className="lg:col-span-4 space-y-8">
-          
+
           {/* Connected Hardware */}
           <section className="p-6 rounded-3xl bg-[#111111] border border-white/10 text-white relative overflow-hidden shadow-xl">
             <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full blur-2xl z-0"></div>
@@ -139,7 +139,7 @@ export const Profile = () => {
               <span className="material-symbols-outlined">bluetooth</span>
               Connected Kitchen
             </h2>
-            
+
             <div className="space-y-4">
               <div className="bg-surface/10 backdrop-blur-md p-4 rounded-xl border border-white/20 flex items-center justify-between group cursor-pointer hover:bg-surface/20 transition-colors">
                 <div className="flex items-center gap-3">
@@ -156,7 +156,7 @@ export const Profile = () => {
                 </div>
                 <span className="material-symbols-outlined text-white/50 group-hover:text-white transition-colors">chevron_right</span>
               </div>
-              
+
               <div className="bg-surface/10 backdrop-blur-md p-4 rounded-xl border border-white/20 flex items-center justify-between group cursor-pointer hover:bg-surface/20 transition-colors">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-white text-[#111111] flex items-center justify-center shadow-lg">

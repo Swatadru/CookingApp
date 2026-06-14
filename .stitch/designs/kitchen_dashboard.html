@@ -1,421 +1,493 @@
 <!DOCTYPE html>
 
-<html class="light" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Your Kitchen | Omniscient Sous-Chef</title>
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet"/>
-<!-- Material Symbols -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "surface": "#fbfbe2",
-                    "on-tertiary": "#ffffff",
-                    "background": "#fbfbe2",
-                    "on-secondary-fixed": "#360f00",
-                    "on-primary-fixed-variant": "#574335",
-                    "on-error": "#ffffff",
-                    "surface-tint": "#705a4c",
-                    "surface-bright": "#fbfbe2",
-                    "on-error-container": "#93000a",
-                    "on-primary-container": "#ac9181",
-                    "error": "#ba1a1a",
-                    "surface-container-high": "#eaead1",
-                    "secondary-container": "#fe9e72",
-                    "surface-variant": "#e4e4cc",
-                    "on-primary": "#ffffff",
-                    "surface-container-lowest": "#ffffff",
-                    "secondary": "#944925",
-                    "error-container": "#ffdad6",
-                    "on-surface": "#1b1d0e",
-                    "primary-fixed": "#fbddca",
-                    "tertiary": "#111d00",
-                    "on-surface-variant": "#4f453f",
-                    "primary-container": "#3d2b1f",
-                    "on-secondary-container": "#773310",
-                    "on-secondary": "#ffffff",
-                    "secondary-fixed": "#ffdbcd",
-                    "tertiary-fixed": "#d2eca2",
-                    "surface-dim": "#dbdcc3",
-                    "inverse-surface": "#303221",
-                    "on-secondary-fixed-variant": "#76320f",
-                    "on-tertiary-fixed": "#131f00",
-                    "surface-container-low": "#f5f5dc",
-                    "on-background": "#1b1d0e",
-                    "surface-container-highest": "#e4e4cc",
-                    "primary": "#26170c",
-                    "outline-variant": "#d2c4bc",
-                    "surface-container": "#efefd7",
-                    "on-primary-fixed": "#28180d",
-                    "inverse-on-surface": "#f2f2d9",
-                    "on-tertiary-container": "#869f5c",
-                    "secondary-fixed-dim": "#ffb596",
-                    "tertiary-fixed-dim": "#b6d088",
-                    "on-tertiary-fixed-variant": "#394d14",
-                    "inverse-primary": "#dec1af",
-                    "tertiary-container": "#223400",
-                    "outline": "#81756e",
-                    "primary-fixed-dim": "#dec1af"
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Your Kitchen | Omniscient Sous-Chef</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Material Symbols -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#fbfbe2",
+                        "on-tertiary": "#ffffff",
+                        "background": "#fbfbe2",
+                        "on-secondary-fixed": "#360f00",
+                        "on-primary-fixed-variant": "#574335",
+                        "on-error": "#ffffff",
+                        "surface-tint": "#705a4c",
+                        "surface-bright": "#fbfbe2",
+                        "on-error-container": "#93000a",
+                        "on-primary-container": "#ac9181",
+                        "error": "#ba1a1a",
+                        "surface-container-high": "#eaead1",
+                        "secondary-container": "#fe9e72",
+                        "surface-variant": "#e4e4cc",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#944925",
+                        "error-container": "#ffdad6",
+                        "on-surface": "#1b1d0e",
+                        "primary-fixed": "#fbddca",
+                        "tertiary": "#111d00",
+                        "on-surface-variant": "#4f453f",
+                        "primary-container": "#3d2b1f",
+                        "on-secondary-container": "#773310",
+                        "on-secondary": "#ffffff",
+                        "secondary-fixed": "#ffdbcd",
+                        "tertiary-fixed": "#d2eca2",
+                        "surface-dim": "#dbdcc3",
+                        "inverse-surface": "#303221",
+                        "on-secondary-fixed-variant": "#76320f",
+                        "on-tertiary-fixed": "#131f00",
+                        "surface-container-low": "#f5f5dc",
+                        "on-background": "#1b1d0e",
+                        "surface-container-highest": "#e4e4cc",
+                        "primary": "#26170c",
+                        "outline-variant": "#d2c4bc",
+                        "surface-container": "#efefd7",
+                        "on-primary-fixed": "#28180d",
+                        "inverse-on-surface": "#f2f2d9",
+                        "on-tertiary-container": "#869f5c",
+                        "secondary-fixed-dim": "#ffb596",
+                        "tertiary-fixed-dim": "#b6d088",
+                        "on-tertiary-fixed-variant": "#394d14",
+                        "inverse-primary": "#dec1af",
+                        "tertiary-container": "#223400",
+                        "outline": "#81756e",
+                        "primary-fixed-dim": "#dec1af"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "base-unit": "8px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "quote-it-lg": ["Playfair Display"],
+                        "label-sm": ["Space Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "headline-lg": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "quote-it-lg": ["24px", { "lineHeight": "32px", "fontWeight": "400" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "600" }]
+                    }
+                },
             },
-            "borderRadius": {
-                    "DEFAULT": "0.25rem",
-                    "lg": "0.5rem",
-                    "xl": "0.75rem",
-                    "full": "9999px"
-            },
-            "spacing": {
-                    "margin-mobile": "16px",
-                    "margin-desktop": "64px",
-                    "gutter": "24px",
-                    "base-unit": "8px",
-                    "container-max": "1280px"
-            },
-            "fontFamily": {
-                    "display-lg": ["Playfair Display"],
-                    "quote-it-lg": ["Playfair Display"],
-                    "label-sm": ["Space Grotesk"],
-                    "body-md": ["Hanken Grotesk"],
-                    "headline-lg-mobile": ["Playfair Display"],
-                    "headline-lg": ["Playfair Display"]
-            },
-            "fontSize": {
-                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "quote-it-lg": ["24px", {"lineHeight": "32px", "fontWeight": "400"}],
-                    "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
-                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
-                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
-            }
-          },
-        },
-      }
+        }
     </script>
-<style>
+    <style>
         .glass-panel {
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
+
         .espresso-shadow {
             box-shadow: 0 20px 40px rgba(61, 43, 31, 0.05);
         }
+
         .espresso-shadow-deep {
             box-shadow: 0 40px 80px rgba(61, 43, 31, 0.08);
         }
+
         .ai-glow {
             box-shadow: 0 0 15px rgba(160, 82, 45, 0.2);
         }
+
         .liquid-hover:hover {
             transform: scale(1.02);
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
     </style>
 </head>
+
 <body class="bg-surface text-on-surface font-body-md min-h-screen">
-<!-- TopNavBar (Glassmorphic) -->
-<nav class="fixed top-0 left-0 w-full z-50 bg-surface/10 backdrop-blur-md dark:bg-surface-container-low/10 border-b border-white/10 shadow-sm transition-all duration-300">
-<div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
-<div class="flex items-center gap-8">
-<span class="font-display-lg text-headline-lg text-primary tracking-tight">Omniscient Sous-Chef</span>
-<div class="hidden md:flex gap-6 items-center">
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-300" href="#">Inspiration</a>
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-300" href="#">Recipe Library</a>
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-300" href="#">Tech Showcase</a>
-<a class="font-body-md text-body-md text-secondary border-b-2 border-secondary pb-1" href="#">My Kitchen</a>
-</div>
-</div>
-<div class="flex items-center gap-4">
-<div class="relative hidden lg:block">
-<input class="bg-white/50 border-none rounded-full px-6 py-2 w-64 focus:ring-2 focus:ring-secondary/20 font-body-md" placeholder="Search your library..." type="text"/>
-</div>
-<button class="pill-shaped bg-primary-container text-surface px-6 py-2 rounded-full font-label-sm uppercase tracking-wider hover:bg-primary transition-all active:scale-95">Cook with AI</button>
-<span class="material-symbols-outlined text-primary cursor-pointer text-3xl">account_circle</span>
-</div>
-</div>
-</nav>
-<!-- SideNavBar (Persistent/Fly-out AI Assistant) -->
-<aside class="fixed right-0 top-0 h-full w-[380px] z-40 bg-surface-container dark:bg-surface-container-high backdrop-blur-lg border-l border-white/10 shadow-[0_40px_80px_rgba(61,43,31,0.08)] flex flex-col p-6 gap-4 hidden lg:flex pt-24">
-<div class="flex items-center gap-4 mb-6">
-<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center">
-<span class="material-symbols-outlined text-on-secondary-container">smart_toy</span>
-</div>
-<div>
-<h3 class="font-label-sm text-on-surface font-bold">Sous-Chef AI</h3>
-<p class="text-xs text-on-surface-variant opacity-70">Ready to assist</p>
-</div>
-</div>
-<!-- AI Stats & Conversation Mockup -->
-<div class="flex-grow flex flex-col gap-4 overflow-y-auto pr-2">
-<div class="glass-panel p-4 rounded-xl bg-white/30">
-<p class="text-sm italic text-on-surface-variant">"Chef, I've analyzed your pantry. We can complete that Boeuf Bourguignon tonight if we substitute the pearl onions."</p>
-</div>
-<div class="mt-4">
-<h4 class="font-label-sm text-xs text-secondary uppercase tracking-widest mb-3">Kitchen Vitals</h4>
-<div class="grid grid-cols-2 gap-3">
-<div class="bg-surface-container-lowest p-3 rounded-lg border border-outline-variant/30">
-<span class="block text-2xl font-display-lg text-primary">124</span>
-<span class="text-[10px] uppercase text-on-surface-variant">Recipes Mastered</span>
-</div>
-<div class="bg-surface-container-lowest p-3 rounded-lg border border-outline-variant/30">
-<span class="block text-2xl font-display-lg text-primary">82%</span>
-<span class="text-[10px] uppercase text-on-surface-variant">Skill Accuracy</span>
-</div>
-</div>
-</div>
-</div>
-<button class="w-full py-4 bg-secondary text-surface rounded-xl font-label-sm flex items-center justify-center gap-2 hover:bg-on-secondary-fixed transition-all">
-<span class="material-symbols-outlined">menu_book</span>
+    <!-- TopNavBar (Glassmorphic) -->
+    <nav
+        class="fixed top-0 left-0 w-full z-50 bg-surface/10 backdrop-blur-md dark:bg-surface-container-low/10 border-b border-white/10 shadow-sm transition-all duration-300">
+        <div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+            <div class="flex items-center gap-8">
+                <span class="font-display-lg text-headline-lg text-primary tracking-tight">Omniscient Sous-Chef</span>
+                <div class="hidden md:flex gap-6 items-center">
+                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-300"
+                        href="#">Inspiration</a>
+                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-300"
+                        href="#">Recipe Library</a>
+                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-300"
+                        href="#">Tech Showcase</a>
+                    <a class="font-body-md text-body-md text-secondary border-b-2 border-secondary pb-1" href="#">My
+                        Kitchen</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="relative hidden lg:block">
+                    <input
+                        class="bg-white/50 border-none rounded-full px-6 py-2 w-64 focus:ring-2 focus:ring-secondary/20 font-body-md"
+                        placeholder="Search your library..." type="text" />
+                </div>
+                <button
+                    class="pill-shaped bg-primary-container text-surface px-6 py-2 rounded-full font-label-sm uppercase tracking-wider hover:bg-primary transition-all active:scale-95">Cook
+                    with AI</button>
+                <span class="material-symbols-outlined text-primary cursor-pointer text-3xl">account_circle</span>
+            </div>
+        </div>
+    </nav>
+    <!-- SideNavBar (Persistent/Fly-out AI Assistant) -->
+    <aside
+        class="fixed right-0 top-0 h-full w-[380px] z-40 bg-surface-container dark:bg-surface-container-high backdrop-blur-lg border-l border-white/10 shadow-[0_40px_80px_rgba(61,43,31,0.08)] flex flex-col p-6 gap-4 hidden lg:flex pt-24">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center">
+                <span class="material-symbols-outlined text-on-secondary-container">smart_toy</span>
+            </div>
+            <div>
+                <h3 class="font-label-sm text-on-surface font-bold">Sous-Chef AI</h3>
+                <p class="text-xs text-on-surface-variant opacity-70">Ready to assist</p>
+            </div>
+        </div>
+        <!-- AI Stats & Conversation Mockup -->
+        <div class="flex-grow flex flex-col gap-4 overflow-y-auto pr-2">
+            <div class="glass-panel p-4 rounded-xl bg-white/30">
+                <p class="text-sm italic text-on-surface-variant">"Chef, I've analyzed your pantry. We can complete that
+                    Boeuf Bourguignon tonight if we substitute the pearl onions."</p>
+            </div>
+            <div class="mt-4">
+                <h4 class="font-label-sm text-xs text-secondary uppercase tracking-widest mb-3">Kitchen Vitals</h4>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-surface-container-lowest p-3 rounded-lg border border-outline-variant/30">
+                        <span class="block text-2xl font-display-lg text-primary">124</span>
+                        <span class="text-[10px] uppercase text-on-surface-variant">Recipes Mastered</span>
+                    </div>
+                    <div class="bg-surface-container-lowest p-3 rounded-lg border border-outline-variant/30">
+                        <span class="block text-2xl font-display-lg text-primary">82%</span>
+                        <span class="text-[10px] uppercase text-on-surface-variant">Skill Accuracy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button
+            class="w-full py-4 bg-secondary text-surface rounded-xl font-label-sm flex items-center justify-center gap-2 hover:bg-on-secondary-fixed transition-all">
+            <span class="material-symbols-outlined">menu_book</span>
             Start Cooking
         </button>
-</aside>
-<!-- Main Content Canvas -->
-<main class="pt-24 lg:mr-[380px] px-margin-mobile md:px-margin-desktop pb-24 max-w-container-max mx-auto">
-<!-- Profile & Welcome Section -->
-<header class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
-<div>
-<h1 class="font-display-lg text-display-lg text-primary">Welcome back, Chef.</h1>
-<p class="text-on-surface-variant mt-2 max-w-xl">Your culinary sanctuary is prepped. 4 recipes are in progress, and your library has 2 new AI-generated refinements.</p>
-</div>
-<div class="flex gap-4">
-<div class="text-right">
-<p class="font-label-sm text-xs text-secondary uppercase">Level 12</p>
-<p class="font-display-lg text-2xl text-primary">Artisan Poissonnier</p>
-</div>
-</div>
-</header>
-<!-- Bento Grid: Your Kitchen -->
-<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-24">
-<!-- Continue Cooking (Large Glass Card) -->
-<div class="md:col-span-8 group cursor-pointer">
-<div class="glass-panel espresso-shadow-deep rounded-3xl overflow-hidden relative h-[400px] bg-white/20 transition-all duration-500 hover:shadow-2xl">
-<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
-<img alt="Active Session" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A high-fidelity cinematic photograph of a professional kitchen workstation with a simmering pot of rich red wine sauce and fresh herbs. Soft, golden hour lighting streams through a window, casting long shadows. The style is sophisticated, clean, and warm, emphasizing the textures of the ingredients and the polished copper cookware." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaaWHSy-WHBDW8YTOWBnWmIwltDdoydxqAd7zxe5CNUwPtiaaOkY8HgAe0PXxIKKo741RhRx5H_XhSnff4nAUweQflSUTisqPWPp6iIJVz-wDvUiuLC3CoitRowlY9TMVEcMtdILmrP4xCvxNEAoK9y246CvSqYK1-wo6cGmZphW9t7qwTlBUMFpt_beE09VJGqcGWVvmg2CHGyoWDPGwW8M0ISS3Rx9lneMnLI6lQxuANJQsv6kC5akNFOTnN4wDssUONRZ0OueoI"/>
-<div class="absolute bottom-0 left-0 p-8 z-20 w-full flex justify-between items-end">
-<div>
-<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-3 inline-block">Active Session</span>
-<h2 class="font-display-lg text-4xl text-surface">Truffle Infused Risotto</h2>
-<p class="text-surface/80 font-body-md mt-2">Step 4 of 12: Emulsifying the Mantecatura</p>
-</div>
-<button class="bg-surface text-primary w-14 h-14 rounded-full flex items-center justify-center hover:bg-secondary hover:text-surface transition-all">
-<span class="material-symbols-outlined text-3xl">play_arrow</span>
-</button>
-</div>
-</div>
-</div>
-<!-- Stats Mini Grid -->
-<div class="md:col-span-4 flex flex-col gap-gutter">
-<div class="glass-panel p-6 rounded-3xl flex-1 bg-surface-container-low/60 flex flex-col justify-between">
-<div class="flex justify-between items-start">
-<span class="material-symbols-outlined text-secondary text-4xl">local_fire_department</span>
-<span class="text-xs font-label-sm text-secondary">+12% vs last week</span>
-</div>
-<div>
-<p class="text-on-surface-variant font-label-sm uppercase tracking-tighter">Kitchen Efficiency</p>
-<p class="font-display-lg text-4xl text-primary">High Precision</p>
-</div>
-</div>
-<div class="glass-panel p-6 rounded-3xl flex-1 bg-surface-container-low/60 flex flex-col justify-between">
-<div class="flex justify-between items-start">
-<span class="material-symbols-outlined text-secondary text-4xl">restaurant</span>
-<span class="text-xs font-label-sm text-secondary">24 Ingredients</span>
-</div>
-<div>
-<p class="text-on-surface-variant font-label-sm uppercase tracking-tighter">Pantry Health</p>
-<p class="font-display-lg text-4xl text-primary">Fully Stocked</p>
-</div>
-</div>
-</div>
-<!-- Saved Recipes Row -->
-<div class="md:col-span-12 mt-8">
-<div class="flex justify-between items-center mb-6">
-<h3 class="font-display-lg text-2xl text-primary">Saved Refinements</h3>
-<a class="text-secondary font-label-sm flex items-center gap-2 hover:gap-3 transition-all" href="#">View Library <span class="material-symbols-outlined">arrow_forward</span></a>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
-<!-- Recipe Card 1 -->
-<div class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
-<div class="h-48 overflow-hidden">
-<img alt="Recipe" class="w-full h-full object-cover" data-alt="A vibrant, colorful bowl of Mediterranean salad with feta cheese, olives, and fresh tomatoes. The lighting is bright and natural, creating a crisp and appetizing look. The background is a clean white marble countertop with a touch of olive oil in a glass bottle. Editorial food photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe0AD34aGqd6r8D8xiDCvgetSz6Mey7g8xX66LOKCsQtj40wmuqU7w_tMRM2nEqQzMPn_nXiQssADv1xm3CeWPQNaR9Bzz3XOXN0MKUqZECCoKP2XCh2UPPRbHWZ8y1Xd0j7Uu4ScmTRxAx-ebOx0VaND0MmjmVZ7MBO7NcgkjrN4A5RvGSCUyfkcD2NnWGoY6-H8BdJU7ST0h9xcBinylT7djF3V2_cz5xkzY95H4rGbRQoQ_o96vNd-tDEEMMiZCe_Cv-wsVm4K_"/>
-</div>
-<div class="p-4">
-<div class="flex gap-2 mb-2">
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">LITE</span>
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">15 MIN</span>
-</div>
-<h4 class="font-display-lg text-lg text-primary">Citrus Mediterranean</h4>
-<p class="text-xs text-on-surface-variant mt-1">Refined by AI for low sodium</p>
-</div>
-</div>
-<!-- Recipe Card 2 -->
-<div class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
-<div class="h-48 overflow-hidden">
-<img alt="Recipe" class="w-full h-full object-cover" data-alt="A decadent dark chocolate lava cake with a molten center, dusted with powdered sugar and served with a single raspberry. Dark, moody lighting with a focus on the texture of the chocolate. Elegant restaurant-style plating on a dark slate board. Warm and luxurious aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdd4-gUNjwG9_H3rzvxUIGvgscryFOVMb7zTdiGFqE6yeoHO0sJhNLtLHhwEIr44sZvVrSqYm1iHnfKTUfEhBf35gX7u6kZtzaSZ4S7gTdVG5SRZARG_teeqb73tFzXnpE1N_tErVa39J3gFSC69BShf4WGVTzp-0QH1WKPEsFXzYBME11n5OMbA8kQt6PqNeNt8TKOW47xOaTuuGWK4UFajpEudCKREC-WrymLtiOJ3FQWv5L-VWK665y_8pN4GMdS4hxkMkCNrDC"/>
-</div>
-<div class="p-4">
-<div class="flex gap-2 mb-2">
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">DESSERT</span>
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">45 MIN</span>
-</div>
-<h4 class="font-display-lg text-lg text-primary">Velvet Cacao Dome</h4>
-<p class="text-xs text-on-surface-variant mt-1">Sous-Chef Original Creation</p>
-</div>
-</div>
-<!-- Recipe Card 3 -->
-<div class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
-<div class="h-48 overflow-hidden">
-<img alt="Recipe" class="w-full h-full object-cover" data-alt="Freshly made pasta noodles being tossed in a light, herbaceous pesto sauce. Selective focus on the texture of the pasta and the vibrant green of the basil. Soft morning light, rustic wooden table setting. Cinematic culinary focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAATIQ5-PrLwHpMASowUNTzMyuGIWPWHKal4jroBwd0-26KA4dBaE5VnmWRsznu8wHaCm4PalOS6cHRyWiUBzAkaWId5r70TruzzhiOeXTESlqVpfQkpFj49PcIm9k7SUqS3SBLIN4Dxd5eK_CyC-bFE4KVC6CHkv6wH1UGSLZazkxO_niHsZY33m6Oi0DRGOb6mL6hYtzRnaTKQ4YVgi8K-KB1SLaaJTpvjb9dQBfgptWZ_d8XwlcXI0W20jgfrmk7tkhuw_-HBHGf"/>
-</div>
-<div class="p-4">
-<div class="flex gap-2 mb-2">
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">ITALIAN</span>
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">30 MIN</span>
-</div>
-<h4 class="font-display-lg text-lg text-primary">Hand-Cut Genovese</h4>
-<p class="text-xs text-on-surface-variant mt-1">Manual adjustment saved</p>
-</div>
-</div>
-<!-- Recipe Card 4 -->
-<div class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
-<div class="h-48 overflow-hidden">
-<img alt="Recipe" class="w-full h-full object-cover" data-alt="A colorful grain bowl with roasted sweet potatoes, kale, chickpeas, and a drizzle of creamy tahini dressing. Bright, clean high-key lighting for a healthy, fresh feel. Minimalist light-mode aesthetic with organic textures and natural colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1KIjazrdlg9-QdUmuMtNdGvNDsbsLh3aWH5soUx4CMYMUGEVzFAxAqyfAfooWL9MNXKl-90O_YMXElXPwEA7ZI9hnWnnz4N41IN0p1OkTUwlv_filxEwAY3_1ZG_zRuK9Z-bZi7AVt661JI2930UZc6U5YNLa07hmxg0PFo3mTfcCiY-Ug8TGEoG7IjAOJKXV6SiWWlhmtKd3Xe_TXbVn8hc57Wrk1z2CRhKkl_N6bxeU0CvQ84sTLj-yNzh2NyFj5VojeQB8qiww"/>
-</div>
-<div class="p-4">
-<div class="flex gap-2 mb-2">
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">VEGAN</span>
-<span class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">20 MIN</span>
-</div>
-<h4 class="font-display-lg text-lg text-primary">Artisan Harvest Bowl</h4>
-<p class="text-xs text-on-surface-variant mt-1">Bookmarked from 'Modern Green'</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Bookmarked Cookbook Pages (Editorial Horizontal Layout) -->
-<section class="mb-24">
-<h3 class="font-display-lg text-2xl text-primary mb-8">Digital Cookbook Library</h3>
-<div class="flex overflow-x-auto pb-8 gap-gutter no-scrollbar">
-<!-- Page 1 -->
-<div class="min-w-[320px] glass-panel bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4">
-<span class="material-symbols-outlined text-secondary">auto_stories</span>
-<h4 class="font-display-lg text-xl text-primary">Modernist Cuisine: Vol 1</h4>
-<p class="text-sm italic opacity-70">"The Physics of Spherification"</p>
-<div class="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
-<span class="font-label-sm text-[10px] text-on-surface-variant">PAGE 142</span>
-<button class="text-secondary hover:underline font-label-sm text-xs">Jump to Page</button>
-</div>
-</div>
-<!-- Page 2 -->
-<div class="min-w-[320px] glass-panel bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4">
-<span class="material-symbols-outlined text-secondary">auto_stories</span>
-<h4 class="font-display-lg text-xl text-primary">The Noma Guide</h4>
-<p class="text-sm italic opacity-70">"Mastering Koji and Fermentation"</p>
-<div class="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
-<span class="font-label-sm text-[10px] text-on-surface-variant">PAGE 289</span>
-<button class="text-secondary hover:underline font-label-sm text-xs">Jump to Page</button>
-</div>
-</div>
-<!-- Page 3 -->
-<div class="min-w-[320px] glass-panel bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4">
-<span class="material-symbols-outlined text-secondary">auto_stories</span>
-<h4 class="font-display-lg text-xl text-primary">Mastering French Cooking</h4>
-<p class="text-sm italic opacity-70">"The Art of the Soufflé"</p>
-<div class="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
-<span class="font-label-sm text-[10px] text-on-surface-variant">PAGE 56</span>
-<button class="text-secondary hover:underline font-label-sm text-xs">Jump to Page</button>
-</div>
-</div>
-</div>
-</section>
-<!-- Cooking History (List Style) -->
-<section class="mb-24">
-<h3 class="font-display-lg text-2xl text-primary mb-8">Culinary History</h3>
-<div class="glass-panel rounded-3xl overflow-hidden bg-white/10">
-<table class="w-full text-left border-collapse">
-<thead>
-<tr class="border-b border-outline-variant/30 text-on-surface-variant font-label-sm text-[10px] uppercase tracking-widest">
-<th class="p-6">Dish</th>
-<th class="p-6">Date</th>
-<th class="p-6">Duration</th>
-<th class="p-6">AI Feedback</th>
-<th class="p-6 text-right">Action</th>
-</tr>
-</thead>
-<tbody class="font-body-md text-sm">
-<tr class="border-b border-outline-variant/10 hover:bg-white/20 transition-colors">
-<td class="p-6 font-semibold">Osso Buco à la Milanese</td>
-<td class="p-6 opacity-60">Oct 12, 2024</td>
-<td class="p-6 opacity-60">3h 20m</td>
-<td class="p-6"><span class="text-secondary">Perfect Sear Achieved</span></td>
-<td class="p-6 text-right"><button class="material-symbols-outlined text-on-surface-variant">history</button></td>
-</tr>
-<tr class="border-b border-outline-variant/10 hover:bg-white/20 transition-colors">
-<td class="p-6 font-semibold">Seared Scallops with Pea Puree</td>
-<td class="p-6 opacity-60">Oct 09, 2024</td>
-<td class="p-6 opacity-60">45m</td>
-<td class="p-6"><span class="text-on-surface-variant">Plating Improved (B+)</span></td>
-<td class="p-6 text-right"><button class="material-symbols-outlined text-on-surface-variant">history</button></td>
-</tr>
-<tr class="hover:bg-white/20 transition-colors">
-<td class="p-6 font-semibold">Sourdough Boule (75% Hydration)</td>
-<td class="p-6 opacity-60">Oct 05, 2024</td>
-<td class="p-6 opacity-60">14h 00m</td>
-<td class="p-6"><span class="text-secondary">Crust Depth Optimal</span></td>
-<td class="p-6 text-right"><button class="material-symbols-outlined text-on-surface-variant">history</button></td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-</main>
-<!-- Footer (Editorial) -->
-<footer class="w-full mt-24 bg-surface-container-low dark:bg-surface-container-highest border-t border-outline-variant/30">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-16 max-w-container-max mx-auto">
-<div class="col-span-1 md:col-span-1">
-<span class="font-display-lg text-headline-lg text-primary">Omniscient Sous-Chef</span>
-<p class="mt-4 text-on-surface-variant opacity-80 text-body-md max-w-[200px]">Culinary intelligence elevated for the modern kitchen.</p>
-</div>
-<div class="col-span-1">
-<h5 class="font-label-sm text-xs font-bold uppercase mb-4 text-primary">Features</h5>
-<ul class="flex flex-col gap-2 font-body-md text-sm text-on-surface-variant opacity-80">
-<li><a class="hover:text-secondary transition-opacity" href="#">Culinary Physics</a></li>
-<li><a class="hover:text-secondary transition-opacity" href="#">Vision AI</a></li>
-<li><a class="hover:text-secondary transition-opacity" href="#">Allergen Swapper</a></li>
-</ul>
-</div>
-<div class="col-span-1">
-<h5 class="font-label-sm text-xs font-bold uppercase mb-4 text-primary">Explore</h5>
-<ul class="flex flex-col gap-2 font-body-md text-sm text-on-surface-variant opacity-80">
-<li><a class="hover:text-secondary transition-opacity" href="#">Global Kitchen</a></li>
-<li><a class="hover:text-secondary transition-opacity" href="#">Recipe Archives</a></li>
-<li><a class="hover:text-secondary transition-opacity" href="#">Chef Community</a></li>
-</ul>
-</div>
-<div class="col-span-1">
-<h5 class="font-label-sm text-xs font-bold uppercase mb-4 text-primary">Company</h5>
-<ul class="flex flex-col gap-2 font-body-md text-sm text-on-surface-variant opacity-80">
-<li><a class="hover:text-secondary transition-opacity" href="#">Terms of Service</a></li>
-<li><a class="hover:text-secondary transition-opacity" href="#">Privacy Policy</a></li>
-<li><a class="hover:text-secondary transition-opacity" href="#">Support</a></li>
-</ul>
-</div>
-</div>
-<div class="px-margin-desktop py-8 border-t border-outline-variant/10 text-center">
-<p class="text-label-sm font-label-sm text-on-surface-variant opacity-60">© 2024 The Omniscient Sous-Chef. Culinary Intelligence Elevated.</p>
-</div>
-</footer>
-<!-- FAB for AI Trigger (Contextual) -->
-<button class="fixed bottom-8 right-8 lg:hidden bg-secondary text-surface w-16 h-16 rounded-full flex items-center justify-center shadow-2xl ai-glow z-50">
-<span class="material-symbols-outlined text-3xl">smart_toy</span>
-</button>
-<script>
+    </aside>
+    <!-- Main Content Canvas -->
+    <main class="pt-24 lg:mr-[380px] px-margin-mobile md:px-margin-desktop pb-24 max-w-container-max mx-auto">
+        <!-- Profile & Welcome Section -->
+        <header class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div>
+                <h1 class="font-display-lg text-display-lg text-primary">Welcome back, Chef.</h1>
+                <p class="text-on-surface-variant mt-2 max-w-xl">Your culinary sanctuary is prepped. 4 recipes are in
+                    progress, and your library has 2 new AI-generated refinements.</p>
+            </div>
+            <div class="flex gap-4">
+                <div class="text-right">
+                    <p class="font-label-sm text-xs text-secondary uppercase">Level 12</p>
+                    <p class="font-display-lg text-2xl text-primary">Artisan Poissonnier</p>
+                </div>
+            </div>
+        </header>
+        <!-- Bento Grid: Your Kitchen -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-24">
+            <!-- Continue Cooking (Large Glass Card) -->
+            <div class="md:col-span-8 group cursor-pointer">
+                <div
+                    class="glass-panel espresso-shadow-deep rounded-3xl overflow-hidden relative h-[400px] bg-white/20 transition-all duration-500 hover:shadow-2xl">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
+                    <img alt="Active Session"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        data-alt="A high-fidelity cinematic photograph of a professional kitchen workstation with a simmering pot of rich red wine sauce and fresh herbs. Soft, golden hour lighting streams through a window, casting long shadows. The style is sophisticated, clean, and warm, emphasizing the textures of the ingredients and the polished copper cookware."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaaWHSy-WHBDW8YTOWBnWmIwltDdoydxqAd7zxe5CNUwPtiaaOkY8HgAe0PXxIKKo741RhRx5H_XhSnff4nAUweQflSUTisqPWPp6iIJVz-wDvUiuLC3CoitRowlY9TMVEcMtdILmrP4xCvxNEAoK9y246CvSqYK1-wo6cGmZphW9t7qwTlBUMFpt_beE09VJGqcGWVvmg2CHGyoWDPGwW8M0ISS3Rx9lneMnLI6lQxuANJQsv6kC5akNFOTnN4wDssUONRZ0OueoI" />
+                    <div class="absolute bottom-0 left-0 p-8 z-20 w-full flex justify-between items-end">
+                        <div>
+                            <span
+                                class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-3 inline-block">Active
+                                Session</span>
+                            <h2 class="font-display-lg text-4xl text-surface">Truffle Infused Risotto</h2>
+                            <p class="text-surface/80 font-body-md mt-2">Step 4 of 12: Emulsifying the Mantecatura</p>
+                        </div>
+                        <button
+                            class="bg-surface text-primary w-14 h-14 rounded-full flex items-center justify-center hover:bg-secondary hover:text-surface transition-all">
+                            <span class="material-symbols-outlined text-3xl">play_arrow</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Stats Mini Grid -->
+            <div class="md:col-span-4 flex flex-col gap-gutter">
+                <div
+                    class="glass-panel p-6 rounded-3xl flex-1 bg-surface-container-low/60 flex flex-col justify-between">
+                    <div class="flex justify-between items-start">
+                        <span class="material-symbols-outlined text-secondary text-4xl">local_fire_department</span>
+                        <span class="text-xs font-label-sm text-secondary">+12% vs last week</span>
+                    </div>
+                    <div>
+                        <p class="text-on-surface-variant font-label-sm uppercase tracking-tighter">Kitchen Efficiency
+                        </p>
+                        <p class="font-display-lg text-4xl text-primary">High Precision</p>
+                    </div>
+                </div>
+                <div
+                    class="glass-panel p-6 rounded-3xl flex-1 bg-surface-container-low/60 flex flex-col justify-between">
+                    <div class="flex justify-between items-start">
+                        <span class="material-symbols-outlined text-secondary text-4xl">restaurant</span>
+                        <span class="text-xs font-label-sm text-secondary">24 Ingredients</span>
+                    </div>
+                    <div>
+                        <p class="text-on-surface-variant font-label-sm uppercase tracking-tighter">Pantry Health</p>
+                        <p class="font-display-lg text-4xl text-primary">Fully Stocked</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Saved Recipes Row -->
+            <div class="md:col-span-12 mt-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="font-display-lg text-2xl text-primary">Saved Refinements</h3>
+                    <a class="text-secondary font-label-sm flex items-center gap-2 hover:gap-3 transition-all"
+                        href="#">View Library <span class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+                    <!-- Recipe Card 1 -->
+                    <div
+                        class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Recipe" class="w-full h-full object-cover"
+                                data-alt="A vibrant, colorful bowl of Mediterranean salad with feta cheese, olives, and fresh tomatoes. The lighting is bright and natural, creating a crisp and appetizing look. The background is a clean white marble countertop with a touch of olive oil in a glass bottle. Editorial food photography style."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe0AD34aGqd6r8D8xiDCvgetSz6Mey7g8xX66LOKCsQtj40wmuqU7w_tMRM2nEqQzMPn_nXiQssADv1xm3CeWPQNaR9Bzz3XOXN0MKUqZECCoKP2XCh2UPPRbHWZ8y1Xd0j7Uu4ScmTRxAx-ebOx0VaND0MmjmVZ7MBO7NcgkjrN4A5RvGSCUyfkcD2NnWGoY6-H8BdJU7ST0h9xcBinylT7djF3V2_cz5xkzY95H4rGbRQoQ_o96vNd-tDEEMMiZCe_Cv-wsVm4K_" />
+                        </div>
+                        <div class="p-4">
+                            <div class="flex gap-2 mb-2">
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">LITE</span>
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">15
+                                    MIN</span>
+                            </div>
+                            <h4 class="font-display-lg text-lg text-primary">Citrus Mediterranean</h4>
+                            <p class="text-xs text-on-surface-variant mt-1">Refined by AI for low sodium</p>
+                        </div>
+                    </div>
+                    <!-- Recipe Card 2 -->
+                    <div
+                        class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Recipe" class="w-full h-full object-cover"
+                                data-alt="A decadent dark chocolate lava cake with a molten center, dusted with powdered sugar and served with a single raspberry. Dark, moody lighting with a focus on the texture of the chocolate. Elegant restaurant-style plating on a dark slate board. Warm and luxurious aesthetic."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdd4-gUNjwG9_H3rzvxUIGvgscryFOVMb7zTdiGFqE6yeoHO0sJhNLtLHhwEIr44sZvVrSqYm1iHnfKTUfEhBf35gX7u6kZtzaSZ4S7gTdVG5SRZARG_teeqb73tFzXnpE1N_tErVa39J3gFSC69BShf4WGVTzp-0QH1WKPEsFXzYBME11n5OMbA8kQt6PqNeNt8TKOW47xOaTuuGWK4UFajpEudCKREC-WrymLtiOJ3FQWv5L-VWK665y_8pN4GMdS4hxkMkCNrDC" />
+                        </div>
+                        <div class="p-4">
+                            <div class="flex gap-2 mb-2">
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">DESSERT</span>
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">45
+                                    MIN</span>
+                            </div>
+                            <h4 class="font-display-lg text-lg text-primary">Velvet Cacao Dome</h4>
+                            <p class="text-xs text-on-surface-variant mt-1">Sous-Chef Original Creation</p>
+                        </div>
+                    </div>
+                    <!-- Recipe Card 3 -->
+                    <div
+                        class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Recipe" class="w-full h-full object-cover"
+                                data-alt="Freshly made pasta noodles being tossed in a light, herbaceous pesto sauce. Selective focus on the texture of the pasta and the vibrant green of the basil. Soft morning light, rustic wooden table setting. Cinematic culinary focus."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAATIQ5-PrLwHpMASowUNTzMyuGIWPWHKal4jroBwd0-26KA4dBaE5VnmWRsznu8wHaCm4PalOS6cHRyWiUBzAkaWId5r70TruzzhiOeXTESlqVpfQkpFj49PcIm9k7SUqS3SBLIN4Dxd5eK_CyC-bFE4KVC6CHkv6wH1UGSLZazkxO_niHsZY33m6Oi0DRGOb6mL6hYtzRnaTKQ4YVgi8K-KB1SLaaJTpvjb9dQBfgptWZ_d8XwlcXI0W20jgfrmk7tkhuw_-HBHGf" />
+                        </div>
+                        <div class="p-4">
+                            <div class="flex gap-2 mb-2">
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">ITALIAN</span>
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">30
+                                    MIN</span>
+                            </div>
+                            <h4 class="font-display-lg text-lg text-primary">Hand-Cut Genovese</h4>
+                            <p class="text-xs text-on-surface-variant mt-1">Manual adjustment saved</p>
+                        </div>
+                    </div>
+                    <!-- Recipe Card 4 -->
+                    <div
+                        class="liquid-hover glass-panel bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Recipe" class="w-full h-full object-cover"
+                                data-alt="A colorful grain bowl with roasted sweet potatoes, kale, chickpeas, and a drizzle of creamy tahini dressing. Bright, clean high-key lighting for a healthy, fresh feel. Minimalist light-mode aesthetic with organic textures and natural colors."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1KIjazrdlg9-QdUmuMtNdGvNDsbsLh3aWH5soUx4CMYMUGEVzFAxAqyfAfooWL9MNXKl-90O_YMXElXPwEA7ZI9hnWnnz4N41IN0p1OkTUwlv_filxEwAY3_1ZG_zRuK9Z-bZi7AVt661JI2930UZc6U5YNLa07hmxg0PFo3mTfcCiY-Ug8TGEoG7IjAOJKXV6SiWWlhmtKd3Xe_TXbVn8hc57Wrk1z2CRhKkl_N6bxeU0CvQ84sTLj-yNzh2NyFj5VojeQB8qiww" />
+                        </div>
+                        <div class="p-4">
+                            <div class="flex gap-2 mb-2">
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">VEGAN</span>
+                                <span
+                                    class="bg-surface-container px-2 py-0.5 rounded text-[10px] text-on-tertiary-container">20
+                                    MIN</span>
+                            </div>
+                            <h4 class="font-display-lg text-lg text-primary">Artisan Harvest Bowl</h4>
+                            <p class="text-xs text-on-surface-variant mt-1">Bookmarked from 'Modern Green'</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bookmarked Cookbook Pages (Editorial Horizontal Layout) -->
+        <section class="mb-24">
+            <h3 class="font-display-lg text-2xl text-primary mb-8">Digital Cookbook Library</h3>
+            <div class="flex overflow-x-auto pb-8 gap-gutter no-scrollbar">
+                <!-- Page 1 -->
+                <div
+                    class="min-w-[320px] glass-panel bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4">
+                    <span class="material-symbols-outlined text-secondary">auto_stories</span>
+                    <h4 class="font-display-lg text-xl text-primary">Modernist Cuisine: Vol 1</h4>
+                    <p class="text-sm italic opacity-70">"The Physics of Spherification"</p>
+                    <div class="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
+                        <span class="font-label-sm text-[10px] text-on-surface-variant">PAGE 142</span>
+                        <button class="text-secondary hover:underline font-label-sm text-xs">Jump to Page</button>
+                    </div>
+                </div>
+                <!-- Page 2 -->
+                <div
+                    class="min-w-[320px] glass-panel bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4">
+                    <span class="material-symbols-outlined text-secondary">auto_stories</span>
+                    <h4 class="font-display-lg text-xl text-primary">The Noma Guide</h4>
+                    <p class="text-sm italic opacity-70">"Mastering Koji and Fermentation"</p>
+                    <div class="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
+                        <span class="font-label-sm text-[10px] text-on-surface-variant">PAGE 289</span>
+                        <button class="text-secondary hover:underline font-label-sm text-xs">Jump to Page</button>
+                    </div>
+                </div>
+                <!-- Page 3 -->
+                <div
+                    class="min-w-[320px] glass-panel bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4">
+                    <span class="material-symbols-outlined text-secondary">auto_stories</span>
+                    <h4 class="font-display-lg text-xl text-primary">Mastering French Cooking</h4>
+                    <p class="text-sm italic opacity-70">"The Art of the Soufflé"</p>
+                    <div class="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
+                        <span class="font-label-sm text-[10px] text-on-surface-variant">PAGE 56</span>
+                        <button class="text-secondary hover:underline font-label-sm text-xs">Jump to Page</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cooking History (List Style) -->
+        <section class="mb-24">
+            <h3 class="font-display-lg text-2xl text-primary mb-8">Culinary History</h3>
+            <div class="glass-panel rounded-3xl overflow-hidden bg-white/10">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr
+                            class="border-b border-outline-variant/30 text-on-surface-variant font-label-sm text-[10px] uppercase tracking-widest">
+                            <th class="p-6">Dish</th>
+                            <th class="p-6">Date</th>
+                            <th class="p-6">Duration</th>
+                            <th class="p-6">AI Feedback</th>
+                            <th class="p-6 text-right">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="font-body-md text-sm">
+                        <tr class="border-b border-outline-variant/10 hover:bg-white/20 transition-colors">
+                            <td class="p-6 font-semibold">Osso Buco à la Milanese</td>
+                            <td class="p-6 opacity-60">Oct 12, 2026</td>
+                            <td class="p-6 opacity-60">3h 20m</td>
+                            <td class="p-6"><span class="text-secondary">Perfect Sear Achieved</span></td>
+                            <td class="p-6 text-right"><button
+                                    class="material-symbols-outlined text-on-surface-variant">history</button></td>
+                        </tr>
+                        <tr class="border-b border-outline-variant/10 hover:bg-white/20 transition-colors">
+                            <td class="p-6 font-semibold">Seared Scallops with Pea Puree</td>
+                            <td class="p-6 opacity-60">Oct 09, 2026</td>
+                            <td class="p-6 opacity-60">45m</td>
+                            <td class="p-6"><span class="text-on-surface-variant">Plating Improved (B+)</span></td>
+                            <td class="p-6 text-right"><button
+                                    class="material-symbols-outlined text-on-surface-variant">history</button></td>
+                        </tr>
+                        <tr class="hover:bg-white/20 transition-colors">
+                            <td class="p-6 font-semibold">Sourdough Boule (75% Hydration)</td>
+                            <td class="p-6 opacity-60">Oct 05, 2026</td>
+                            <td class="p-6 opacity-60">14h 00m</td>
+                            <td class="p-6"><span class="text-secondary">Crust Depth Optimal</span></td>
+                            <td class="p-6 text-right"><button
+                                    class="material-symbols-outlined text-on-surface-variant">history</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <!-- Footer (Editorial) -->
+    <footer
+        class="w-full mt-24 bg-surface-container-low dark:bg-surface-container-highest border-t border-outline-variant/30">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-16 max-w-container-max mx-auto">
+            <div class="col-span-1 md:col-span-1">
+                <span class="font-display-lg text-headline-lg text-primary">Omniscient Sous-Chef</span>
+                <p class="mt-4 text-on-surface-variant opacity-80 text-body-md max-w-[200px]">Culinary intelligence
+                    elevated for the modern kitchen.</p>
+            </div>
+            <div class="col-span-1">
+                <h5 class="font-label-sm text-xs font-bold uppercase mb-4 text-primary">Features</h5>
+                <ul class="flex flex-col gap-2 font-body-md text-sm text-on-surface-variant opacity-80">
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Culinary Physics</a></li>
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Vision AI</a></li>
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Allergen Swapper</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1">
+                <h5 class="font-label-sm text-xs font-bold uppercase mb-4 text-primary">Explore</h5>
+                <ul class="flex flex-col gap-2 font-body-md text-sm text-on-surface-variant opacity-80">
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Global Kitchen</a></li>
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Recipe Archives</a></li>
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Chef Community</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1">
+                <h5 class="font-label-sm text-xs font-bold uppercase mb-4 text-primary">Company</h5>
+                <ul class="flex flex-col gap-2 font-body-md text-sm text-on-surface-variant opacity-80">
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Terms of Service</a></li>
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Privacy Policy</a></li>
+                    <li><a class="hover:text-secondary transition-opacity" href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="px-margin-desktop py-8 border-t border-outline-variant/10 text-center">
+            <p class="text-label-sm font-label-sm text-on-surface-variant opacity-60">© 2026 The Omniscient Sous-Chef.
+                Culinary Intelligence Elevated.</p>
+        </div>
+    </footer>
+    <!-- FAB for AI Trigger (Contextual) -->
+    <button
+        class="fixed bottom-8 right-8 lg:hidden bg-secondary text-surface w-16 h-16 rounded-full flex items-center justify-center shadow-2xl ai-glow z-50">
+        <span class="material-symbols-outlined text-3xl">smart_toy</span>
+    </button>
+    <script>
         // Subtle micro-interaction: Header blur on scroll
         window.addEventListener('scroll', () => {
             const nav = document.querySelector('nav');
@@ -438,4 +510,6 @@
             });
         });
     </script>
-</body></html>
+</body>
+
+</html>

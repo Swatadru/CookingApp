@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="w-full mt-24 bg-surface-container-low border-t border-transparent relative overflow-hidden">
       {/* Gradient top border */}
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-secondary/40 to-transparent"></div>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-16 max-w-container-max mx-auto stagger-children">
         <div className="space-y-6">
           <div className="font-display-lg text-headline-lg text-primary">Omniscient Sous-Chef</div>
@@ -36,7 +36,7 @@ export const Footer = () => {
       </div>
       <div className="px-margin-mobile md:px-margin-desktop py-8 border-t border-outline-variant/10 text-center md:text-left">
         <p className="font-label-sm text-on-surface-variant opacity-60">
-          © 2024 The Omniscient Sous-Chef. Culinary Intelligence Elevated.
+          © 2026 The Omniscient Sous-Chef. Culinary Intelligence Elevated.
         </p>
       </div>
     </footer>

@@ -170,7 +170,7 @@ export const KitchenDashboard = () => {
             <p className="text-sm italic opacity-70">"The Physics of Spherification"</p>
             <div className="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
               <span className="font-label-sm text-[10px] text-on-surface-variant">PAGE 142</span>
-              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href='/library'}>Jump to Page</button>
+              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href = '/library'}>Jump to Page</button>
             </div>
           </div>
           <div className="min-w-[320px] glass-card bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4 hover:shadow-lg transition-shadow duration-300">
@@ -179,7 +179,7 @@ export const KitchenDashboard = () => {
             <p className="text-sm italic opacity-70">"Mastering Koji and Fermentation"</p>
             <div className="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
               <span className="font-label-sm text-[10px] text-on-surface-variant">PAGE 289</span>
-              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href='/library'}>Jump to Page</button>
+              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href = '/library'}>Jump to Page</button>
             </div>
           </div>
           <div className="min-w-[320px] glass-card bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4 hover:shadow-lg transition-shadow duration-300">
@@ -188,7 +188,7 @@ export const KitchenDashboard = () => {
             <p className="text-sm italic opacity-70">"The Art of the Soufflé"</p>
             <div className="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
               <span className="font-label-sm text-[10px] text-on-surface-variant">PAGE 56</span>
-              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href='/library'}>Jump to Page</button>
+              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href = '/library'}>Jump to Page</button>
             </div>
           </div>
         </div>
@@ -217,21 +217,21 @@ export const KitchenDashboard = () => {
             <tbody className="font-body-md text-sm">
               <tr className="border-b border-outline-variant/10 hover:bg-white/20 transition-colors">
                 <td className="p-6 font-semibold">Osso Buco à la Milanese</td>
-                <td className="p-6 opacity-60">Oct 12, 2024</td>
+                <td className="p-6 opacity-60">Oct 12, 2026</td>
                 <td className="p-6 opacity-60">3h 20m</td>
                 <td className="p-6"><span className="text-secondary">Perfect Sear Achieved</span></td>
                 <td className="p-6 text-right"><button className="material-symbols-outlined text-on-surface-variant hover:text-secondary transition-colors">history</button></td>
               </tr>
               <tr className="border-b border-outline-variant/10 hover:bg-white/20 transition-colors">
                 <td className="p-6 font-semibold">Seared Scallops with Pea Puree</td>
-                <td className="p-6 opacity-60">Oct 09, 2024</td>
+                <td className="p-6 opacity-60">Oct 09, 2026</td>
                 <td className="p-6 opacity-60">45m</td>
                 <td className="p-6"><span className="text-on-surface-variant">Plating Improved (B+)</span></td>
                 <td className="p-6 text-right"><button className="material-symbols-outlined text-on-surface-variant hover:text-secondary transition-colors">history</button></td>
               </tr>
               <tr className="hover:bg-white/20 transition-colors">
                 <td className="p-6 font-semibold">Sourdough Boule (75% Hydration)</td>
-                <td className="p-6 opacity-60">Oct 05, 2024</td>
+                <td className="p-6 opacity-60">Oct 05, 2026</td>
                 <td className="p-6 opacity-60">14h 00m</td>
                 <td className="p-6"><span className="text-secondary">Crust Depth Optimal</span></td>
                 <td className="p-6 text-right"><button className="material-symbols-outlined text-on-surface-variant hover:text-secondary transition-colors">history</button></td>
