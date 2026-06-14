@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export const Profile = () => {
   const [skillLevel, setSkillLevel] = useState<'beginner' | 'pro'>('pro');

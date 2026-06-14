@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 
 export const IntroSplash = ({ onComplete }: { onComplete: () => void }) => {
   const [phase, setPhase] = useState(0); // 0=embers, 1=title, 2=tagline, 3=lifting
