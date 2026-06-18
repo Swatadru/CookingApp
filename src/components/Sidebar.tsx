@@ -14,8 +14,9 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
   const [inputValue, setInputValue] = useState('');
   
   // Resizing state
-  const [width, setWidth] = useState(400);
+  const [width, setWidth] = useState(() => Math.min(400, typeof window !== 'undefined' ? window.innerWidth : 400));
   const [isResizing, setIsResizing] = useState(false);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -84,21 +85,23 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
   return (
     <aside 
       id="ai-sidebar" 
-      style={{ width: `${width}px` }}
+      style={{ width: isMobile ? '100vw' : `${width}px` }}
       className={`fixed right-0 top-0 h-full z-50 bg-primary/95 text-surface backdrop-blur-2xl border-l border-white/10 shadow-[0_0_80px_rgba(61,43,31,0.6)] ${
         isResizing ? 'transition-none' : 'transition-transform duration-500 cubic-bezier(0.16, 1, 0.3, 1)'
       } ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
     >
-      {/* Drag Handle */}
-      <div 
-        className="absolute left-0 top-0 w-2 h-full cursor-col-resize hover:bg-white/10 active:bg-white/20 transition-colors z-50 flex items-center justify-center group"
-        onMouseDown={(e) => {
-          e.preventDefault();
-          setIsResizing(true);
-        }}
-      >
-        <div className="w-[2px] h-8 bg-white/30 rounded-full group-hover:bg-white/70 transition-colors"></div>
-      </div>
+      {/* Drag Handle — hidden on mobile */}
+      {!isMobile && (
+        <div 
+          className="absolute left-0 top-0 w-2 h-full cursor-col-resize hover:bg-white/10 active:bg-white/20 transition-colors z-50 flex items-center justify-center group"
+          onMouseDown={(e) => {
+            e.preventDefault();
+            setIsResizing(true);
+          }}
+        >
+          <div className="w-[2px] h-8 bg-white/30 rounded-full group-hover:bg-white/70 transition-colors"></div>
+        </div>
+      )}
       <div className="flex flex-col h-full p-6">
         <div className="flex items-center justify-between mb-8 border-b border-white/10 pb-6">
           <div className="flex items-center gap-4">

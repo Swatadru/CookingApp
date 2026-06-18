@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AgentCriticLogs } from '../components/AgentCriticLogs';
 import { ConfidenceAwareGenerator, ExplainableChemistryEngine, AdaptiveSkillRewriter } from '../components/InnovationWidgets';
 import { ContradictionGraph } from '../components/KitchenWidgets';
 
 export const InnovationLab = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="pt-32 pb-24 min-h-screen">
       {/* Hero Header */}
@@ -19,7 +22,7 @@ export const InnovationLab = () => {
             <button className="bg-primary text-surface px-8 py-3 rounded-full font-label-sm flex items-center gap-2 liquid-hover shadow-lg" onClick={() => document.getElementById('culinary-physics')?.scrollIntoView({ behavior: 'smooth' })}>
               EXPLORE LABS <span className="material-symbols-outlined">arrow_forward</span>
             </button>
-            <button className="glass-card text-primary px-8 py-3 rounded-full font-label-sm border border-primary/20 hover:bg-primary/5 transition-all duration-300" onClick={() => window.location.href='/kitchen'}>
+            <button className="glass-card text-primary px-8 py-3 rounded-full font-label-sm border border-primary/20 hover:bg-primary/5 transition-all duration-300" onClick={() => navigate('/kitchen')}>
               WATCH FILM
             </button>
           </div>
@@ -27,7 +30,7 @@ export const InnovationLab = () => {
       </header>
 
       {/* Tech Showcase Grid */}
-      <div className="px-margin-desktop py-24 max-w-container-max mx-auto space-y-32">
+      <div className="px-margin-mobile md:px-margin-desktop py-16 md:py-24 max-w-container-max mx-auto space-y-16 md:space-y-32">
         {/* Section: Culinary Physics */}
         <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center" id="culinary-physics">
           {/* Culinary Physics: text left, visual right */}

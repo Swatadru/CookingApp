@@ -54,7 +54,7 @@ export const Profile = () => {
               </div>
             </div>
 
-            <div className="flex bg-surface-container p-1 rounded-xl w-[340px] relative">
+            <div className="flex bg-surface-container p-1 rounded-xl w-full max-w-[340px] relative">
               <button
                 onClick={() => setSkillLevel('beginner')}
                 className={`flex-1 py-2.5 rounded-lg font-label-sm transition-all duration-300 relative z-10 text-center ${skillLevel === 'beginner' ? 'text-surface' : 'text-on-surface-variant hover:text-primary'}`}

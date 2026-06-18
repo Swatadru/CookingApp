@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ConfidenceBadges, AllergenSwapper } from '../components/RecipeAIWidgets';
 
 export const RecipeLibrary = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [activeCategory, setActiveCategory] = useState('All Recipes');
   const totalPages = 2;
+  const navigate = useNavigate();
 
   const nextPage = () => {
     if (currentPage < totalPages) {
@@ -23,7 +25,7 @@ export const RecipeLibrary = () => {
       {/* Category Carousel */}
       <header className="mb-12 max-w-4xl mx-auto reveal-up">
         <div className="flex flex-col items-center justify-center mb-8 gap-6 text-center">
-          <h1 className="font-display-lg text-display-lg text-primary">Recipe Library</h1>
+          <h1 className="font-display-lg text-[36px] leading-[44px] md:text-display-lg text-primary">Recipe Library</h1>
           <div className="flex gap-4">
             <button className="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center text-primary hover:bg-surface-container transition-colors" onClick={prevPage}>
               <span className="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
@@ -33,11 +35,11 @@ export const RecipeLibrary = () => {
             </button>
           </div>
         </div>
-        <div className="flex gap-4 overflow-x-auto pb-4 no-scrollbar justify-center">
+        <div className="flex gap-3 md:gap-4 overflow-x-auto pb-4 no-scrollbar justify-start md:justify-center">
           {['All Recipes', 'Breakfast', 'Lunch', 'Dinner', 'Desserts', 'Appetizers'].map(cat => (
             <button
               key={cat}
-              className={`px-8 py-3 rounded-full font-label-sm whitespace-nowrap transition-all duration-300 ${
+              className={`px-6 md:px-8 py-3 rounded-full font-label-sm whitespace-nowrap transition-all duration-300 ${
                 activeCategory === cat
                   ? 'bg-secondary text-surface shadow-md'
                   : 'bg-surface-container-high text-on-surface-variant hover:bg-surface-variant'
@@ -48,8 +50,115 @@ export const RecipeLibrary = () => {
         </div>
       </header>
 
-      {/* 3D Cookbook Container */}
-      <div className="flex justify-center w-full relative z-10">
+      {/* ============================================================
+          MOBILE RECIPE CARDS — shown only on small screens
+         ============================================================ */}
+      <div className="lg:hidden space-y-6 max-w-lg mx-auto reveal-up">
+        {/* Featured Card */}
+        <div className="glass-card rounded-3xl p-6 bg-surface-container-low/60 shadow-lg border border-outline-variant/20">
+          <span className="font-label-sm text-secondary tracking-widest uppercase mb-2 block">Featured Collection</span>
+          <h2 className="font-display-lg text-2xl text-primary leading-tight mb-4">Artisanal Winter Gastronomy</h2>
+          <p className="font-body-md text-on-surface-variant leading-relaxed mb-4">
+            Explore the delicate balance between molecular precision and rustic comfort.
+          </p>
+          <div className="flex gap-4">
+            <div className="flex items-center gap-2 p-3 bg-surface-container rounded-xl flex-1">
+              <span className="material-symbols-outlined text-secondary">restaurant</span>
+              <div>
+                <p className="font-label-sm font-bold text-sm">128 Recipes</p>
+                <p className="text-xs text-on-surface-variant">In your library</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 p-3 bg-surface-container rounded-xl flex-1">
+              <span className="material-symbols-outlined text-secondary">timer</span>
+              <div>
+                <p className="font-label-sm font-bold text-sm">Avg. 45m</p>
+                <p className="text-xs text-on-surface-variant">Chef-level</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Recipe Card: Morning Radiance Bowl */}
+        {currentPage === 1 && (
+          <div className="glass-card rounded-3xl overflow-hidden shadow-lg border border-outline-variant/20">
+            <img className="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpNOLL90rmwFSrRSLAIX75MmIeSiZGG1qsY2nK64B5LANUyjkJN4uHIH0iyhFHMYTqPsqrjAvXs8KRkbF4XiEuun8AqFluV2yhLrM1xtekDhY0E-1X2R3vSB9-Yy6ZP2tEsaSLJoRanpBKSdYrNryZ6Eg-qp2ZSsQc_EielZDEOovF-FqpiyaQPkNsiI1Le9l45sQa8DWARvM8yc2DH1lmxevJy6KD30slNsZwOrfybBAwkwrWyaZWc8Vn9fyDblie0FGnSux8CNO4" alt="Morning Radiance Bowl" />
+            <div className="p-6">
+              <h3 className="font-display-lg text-xl text-primary mb-1">Morning Radiance Bowl</h3>
+              <p className="font-body-md text-on-surface-variant mb-4">Superfoods meets high-end breakfast culture.</p>
+              <button className="w-full bg-primary-container text-surface py-3 rounded-2xl font-bold flex items-center justify-center gap-2 group hover:bg-secondary transition-colors" onClick={() => navigate('/cook-with-ai')}>
+                <span className="material-symbols-outlined group-hover:animate-pulse text-lg">bolt</span>
+                Cook with AI
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Recipe Card: Saffron Risotto */}
+        {currentPage >= 1 && (
+          <div className="glass-card rounded-3xl overflow-hidden shadow-lg border border-outline-variant/20">
+            <img className="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFO6pVvgaBXRMUko2Cx51l8bEOdEWpAk151Ckh8a3WbJ7Y2IPrT4AVVohg-uffWeh7B0L7khPhejZESlT_BNU39scGXzCubD2S2MR2LA-wfh5xRPLb6yeC3VSf1VqjDhcdKdCa_JVGGQ9by9tIHhvq6Ku881b8XoZy4SdSV7qqXEkbFmkFasXVaxPVhDTd23Nri9pPzZ2VsGLWHvGRuj8vPlR2CcUgcLRva1e52Cf-MPqO7PKh_-qZAr-7gPxy7lSTWlnkFJK-Biau" alt="Saffron Risotto" />
+            <div className="p-6">
+              <div className="flex justify-between items-start mb-3">
+                <div>
+                  <h3 className="font-display-lg text-xl text-primary">Saffron Risotto</h3>
+                  <p className="font-label-sm text-secondary">Milanese Classic • 35 Mins</p>
+                </div>
+                <button className="text-on-surface-variant hover:text-secondary transition-colors">
+                  <span className="material-symbols-outlined">bookmark</span>
+                </button>
+              </div>
+              <div className="space-y-2 mb-4">
+                <div className="flex justify-between border-b border-outline-variant/30 pb-1 text-sm">
+                  <span>Saffron Threads</span><span className="font-label-sm">0.5g</span>
+                </div>
+                <div className="flex justify-between border-b border-outline-variant/30 pb-1 text-sm">
+                  <span>Arborio Rice</span><span className="font-label-sm">300g</span>
+                </div>
+                <div className="flex justify-between border-b border-outline-variant/30 pb-1 text-sm items-center">
+                  <AllergenSwapper ingredientName="Parmigiano Reggiano" /><span className="font-label-sm">50g</span>
+                </div>
+              </div>
+              <button className="w-full bg-primary-container text-surface py-3 rounded-2xl font-bold flex items-center justify-center gap-2 group hover:bg-secondary transition-colors" onClick={() => navigate('/cook-with-ai')}>
+                <span className="material-symbols-outlined group-hover:animate-pulse">bolt</span>
+                Analyze Nutrition with AI
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Recipe Card: Wild Mushroom Tart */}
+        {currentPage >= 1 && (
+          <div className="glass-card rounded-3xl overflow-hidden shadow-lg border border-outline-variant/20">
+            <img className="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8O3dbV9Tpgkn7NvC4nVSXecGPaJBTTBc2RKDpE9RjM2atoPirgVmPm9Z9kHlLztlmn4hfsV5J7qbXDXCU12gafyQvxJE1QeBFWDw3gCdmqFpl6aBXYHlpLdEONLDlkZCK7M7mvNdUa93UT8qR1I_VspZxHHQ8YtPIrhcSer6WKI6yZLzf6m33K0v-HCbNyJpwHa2g3DJ0A7UA9e7dYxYa0UZhszRAPMX1VjHt16kpMeQrBZsp0EKgs-v2mtThSbBa9RpLvQqLiNEd" alt="Wild Mushroom Tart" />
+            <div className="p-6">
+              <h3 className="font-display-lg text-xl text-primary mb-1">Wild Mushroom Tart</h3>
+              <p className="font-label-sm text-secondary mb-3">Forest Foraged • 50 Mins</p>
+              <ConfidenceBadges />
+              <div className="flex flex-wrap gap-2 mb-3 mt-3">
+                <span className="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed font-label-sm rounded-full">Vegetarian</span>
+                <span className="px-3 py-1 bg-surface-container text-on-surface-variant font-label-sm rounded-full">Seasonal</span>
+                <span className="px-3 py-1 bg-surface-container text-on-surface-variant font-label-sm rounded-full">Pro Skill</span>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <button className="bg-primary-container text-surface py-3 rounded-2xl font-bold flex items-center justify-center gap-2 group hover:bg-secondary transition-colors text-sm" onClick={() => navigate('/cook-with-ai')}>
+                  <span className="material-symbols-outlined group-hover:animate-pulse text-lg">bolt</span>
+                  Cook
+                </button>
+                <button className="border border-primary-container text-primary-container py-3 rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary-container/10 transition-colors text-sm" onClick={() => navigate('/kitchen')}>
+                  <span className="material-symbols-outlined text-lg">menu_book</span>
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* ============================================================
+          DESKTOP 3D COOKBOOK — hidden on mobile
+         ============================================================ */}
+      <div className="hidden lg:flex justify-center w-full relative z-10">
         <div className="book-container w-full max-w-5xl mx-auto h-[650px] relative reveal-rotate">
         <div className="book w-full h-full shadow-[0_50px_100px_rgba(61,43,31,0.15)] rounded-r-xl overflow-visible">
           {/* Left Persistent Page */}
@@ -122,7 +231,7 @@ export const RecipeLibrary = () => {
                   <span className="font-label-sm">50g</span>
                 </div>
               </div>
-              <button className="mt-auto w-full bg-primary-container text-surface py-4 rounded-2xl font-bold flex items-center justify-center gap-3 group hover:bg-secondary transition-colors duration-300" onClick={() => window.location.href='/cook-with-ai'}>
+              <button className="mt-auto w-full bg-primary-container text-surface py-4 rounded-2xl font-bold flex items-center justify-center gap-3 group hover:bg-secondary transition-colors duration-300" onClick={() => navigate('/cook-with-ai')}>
                 <span className="material-symbols-outlined group-hover:animate-pulse" data-icon="bolt">bolt</span>
                 Analyze Nutrition with AI
               </button>
@@ -154,11 +263,11 @@ export const RecipeLibrary = () => {
                 A delicate buttery crust layered with a rich duxelles and topped with hand-picked chanterelles. This recipe uses AI to suggest the perfect wine pairing based on your current cellar.
               </p>
               <div className="mt-auto grid grid-cols-2 gap-3">
-                <button className="bg-primary-container text-surface py-4 px-2 rounded-2xl font-bold flex items-center justify-center gap-2 group hover:bg-secondary transition-colors duration-300 text-sm" onClick={() => window.location.href='/cook-with-ai'}>
+                <button className="bg-primary-container text-surface py-4 px-2 rounded-2xl font-bold flex items-center justify-center gap-2 group hover:bg-secondary transition-colors duration-300 text-sm" onClick={() => navigate('/cook-with-ai')}>
                   <span className="material-symbols-outlined group-hover:animate-pulse text-lg" data-icon="bolt">bolt</span>
                   Cook
                 </button>
-                <button className="border border-primary-container text-primary-container py-4 px-2 rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary-container/10 transition-colors duration-300 text-sm" onClick={() => window.location.href='/kitchen'}>
+                <button className="border border-primary-container text-primary-container py-4 px-2 rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary-container/10 transition-colors duration-300 text-sm" onClick={() => navigate('/kitchen')}>
                   <span className="material-symbols-outlined text-lg" data-icon="menu_book">menu_book</span>
                   Details
                 </button>
@@ -194,12 +303,12 @@ export const RecipeLibrary = () => {
       </div>
 
       {/* Recipe Grid for Discovery */}
-      <section className="mt-32 max-w-container-max mx-auto">
-        <h2 className="font-display-lg text-headline-lg text-primary mb-12 reveal-up text-center">More for Your Palette</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter stagger-children">
+      <section className="mt-16 md:mt-32 max-w-container-max mx-auto">
+        <h2 className="font-display-lg text-headline-lg text-primary mb-8 md:mb-12 reveal-up text-center">More for Your Palette</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-gutter stagger-children">
           {/* Recipe Card 1 */}
-          <div className="group relative bg-surface-container-low rounded-[32px] overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
-            <div className="relative h-64 overflow-hidden">
+          <div className="group relative bg-surface-container-low rounded-[24px] md:rounded-[32px] overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
+            <div className="relative h-52 md:h-64 overflow-hidden">
               <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqFCmrg_B9wMgymNRgJOXIOfFVk_6defchY4RvPRV5cVzWsrI5c9P3Lbtm78Y4_P5EbOx2BW62PQvs4iusr5zAYoQYt_nizCxSe0Nbk7U77qLBobGDeuyLVYk2vz2_T86KPJztwB958JzsypIaUo1QOHL7SIIkIRLA4bAIdxJ7hZwvCnoaTkyYHyVFI4yU0OiAkPo7FHJ456PRhp0NJZzKCO6HeW_gp9qAe7NnEijcoy_W55W6twnlL9VM-YhMMDo9UzXs1qqIYnd7" alt="Braised Short Ribs" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
@@ -210,8 +319,8 @@ export const RecipeLibrary = () => {
                 <span className="material-symbols-outlined text-surface" data-icon="timer">timer</span>
               </div>
             </div>
-            <div className="p-6 bg-surface/90 backdrop-blur-md">
-              <div className="flex justify-between items-center mb-4">
+            <div className="p-5 md:p-6 bg-surface/90 backdrop-blur-md">
+              <div className="flex justify-between items-center mb-3 md:mb-4">
                 <div className="flex gap-1">
                   <span className="material-symbols-outlined text-secondary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                   <span className="material-symbols-outlined text-secondary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
@@ -221,12 +330,12 @@ export const RecipeLibrary = () => {
                 </div>
                 <span className="font-label-sm text-on-surface-variant">420 kcal</span>
               </div>
-              <button className="w-full py-3 rounded-2xl bg-primary-container text-surface font-bold hover:bg-secondary transition-colors duration-300" onClick={() => window.location.href='/library'}>View Recipe</button>
+              <button className="w-full py-3 rounded-2xl bg-primary-container text-surface font-bold hover:bg-secondary transition-colors duration-300" onClick={() => navigate('/library')}>View Recipe</button>
             </div>
           </div>
           {/* Recipe Card 2 */}
-          <div className="group relative bg-surface-container-low rounded-[32px] overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
-            <div className="relative h-64 overflow-hidden">
+          <div className="group relative bg-surface-container-low rounded-[24px] md:rounded-[32px] overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
+            <div className="relative h-52 md:h-64 overflow-hidden">
               <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDL2qk_BfPLxgZALT2jxWjpJw4pGS5HRctHMlWrmqIMIOuuIgzWL4zF1NbkJusEO71RXhO_EangMT4z1sVLSilrnpLmP9EzqAXCqflIweQ0R-3zm-dldWFa-Ux9Ighzx-6LxM_O7_ikWBgEeX2dL8wydmCzFfCLJL7wxKZE_8I9KLDJqvyUMXaClIffWm5cfHAz5yMfkGptwZUdjULQPIa_VKExoaWPpYhJxg8fPaxktanWTT_lAWqaOhD0n_Zp4Zv6KNzr8g6uX6o" alt="Lava Cake" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
@@ -237,8 +346,8 @@ export const RecipeLibrary = () => {
                 <span className="material-symbols-outlined text-surface" data-icon="timer">timer</span>
               </div>
             </div>
-            <div className="p-6 bg-surface/90 backdrop-blur-md">
-              <div className="flex justify-between items-center mb-4">
+            <div className="p-5 md:p-6 bg-surface/90 backdrop-blur-md">
+              <div className="flex justify-between items-center mb-3 md:mb-4">
                 <div className="flex gap-1">
                   <span className="material-symbols-outlined text-secondary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                   <span className="material-symbols-outlined text-secondary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
@@ -248,12 +357,12 @@ export const RecipeLibrary = () => {
                 </div>
                 <span className="font-label-sm text-on-surface-variant">580 kcal</span>
               </div>
-              <button className="w-full py-3 rounded-2xl bg-primary-container text-surface font-bold hover:bg-secondary transition-colors duration-300" onClick={() => window.location.href='/library'}>View Recipe</button>
+              <button className="w-full py-3 rounded-2xl bg-primary-container text-surface font-bold hover:bg-secondary transition-colors duration-300" onClick={() => navigate('/library')}>View Recipe</button>
             </div>
           </div>
           {/* Recipe Card 3 */}
-          <div className="group relative bg-surface-container-low rounded-[32px] overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
-            <div className="relative h-64 overflow-hidden">
+          <div className="group relative bg-surface-container-low rounded-[24px] md:rounded-[32px] overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
+            <div className="relative h-52 md:h-64 overflow-hidden">
               <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-PEPw8FQpcIqS4_eXL9Q1MOoSSupqXTQpcM-DXzI3AGXUk1Ao_R1D8qvIOSe27yAjxuDmHdFNFn5f06ifEZWXAHQUSEUp_uqYcmpDO3yGcrBFkQhqB7xAZOscfQXqk9g9xMK2ZtvGy53fvepeFt-b9wg64c3iAg0Wtai9jKyOrbmqpdV6mIFR6UvDK2R6R77D5anQz0TeTXcV8QhjOX9emO6KernP2ekJU7rvogB0-tp7MFxMO-O2gN2K_jfkPwdIfHYbOm8GyMgi" alt="Zen Garden Bowl" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
@@ -264,8 +373,8 @@ export const RecipeLibrary = () => {
                 <span className="material-symbols-outlined text-surface" data-icon="timer">timer</span>
               </div>
             </div>
-            <div className="p-6 bg-surface/90 backdrop-blur-md">
-              <div className="flex justify-between items-center mb-4">
+            <div className="p-5 md:p-6 bg-surface/90 backdrop-blur-md">
+              <div className="flex justify-between items-center mb-3 md:mb-4">
                 <div className="flex gap-1">
                   <span className="material-symbols-outlined text-secondary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                   <span className="material-symbols-outlined text-secondary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
@@ -275,7 +384,7 @@ export const RecipeLibrary = () => {
                 </div>
                 <span className="font-label-sm text-on-surface-variant">320 kcal</span>
               </div>
-              <button className="w-full py-3 rounded-2xl bg-primary-container text-surface font-bold hover:bg-secondary transition-colors duration-300" onClick={() => window.location.href='/library'}>View Recipe</button>
+              <button className="w-full py-3 rounded-2xl bg-primary-container text-surface font-bold hover:bg-secondary transition-colors duration-300" onClick={() => navigate('/library')}>View Recipe</button>
             </div>
           </div>
         </div>

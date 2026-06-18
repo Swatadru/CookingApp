@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import { ChemistryErrorModal, ContradictionGraph } from '../components/KitchenWidgets';
 import { StressTestLoader } from '../components/StressTestLoader';
 import { useCookingSession } from '../context/CookingSessionContext';
@@ -10,6 +11,7 @@ export const KitchenDashboard = () => {
 
   const handleSimulateError = () => setShowErrorModal(true);
   const handleStartStressTest = () => setIsStressTesting(true);
+  const navigate = useNavigate();
 
   return (
     <div className="pt-24 px-margin-mobile md:px-margin-desktop pb-24 max-w-container-max mx-auto min-h-screen relative">
@@ -101,7 +103,7 @@ export const KitchenDashboard = () => {
         <div className="md:col-span-12 mt-8">
           <div className="flex justify-between items-center mb-6">
             <h3 className="font-display-lg text-2xl text-primary">Saved Refinements</h3>
-            <a className="text-secondary font-label-sm flex items-center gap-2 hover:gap-3 transition-all" href="/library">View Library <span className="material-symbols-outlined">arrow_forward</span></a>
+            <Link className="text-secondary font-label-sm flex items-center gap-2 hover:gap-3 transition-all" to="/library">View Library <span className="material-symbols-outlined">arrow_forward</span></Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
             <div className="liquid-hover glass-card bg-white/40 rounded-2xl overflow-hidden espresso-shadow cursor-pointer">
@@ -170,7 +172,7 @@ export const KitchenDashboard = () => {
             <p className="text-sm italic opacity-70">"The Physics of Spherification"</p>
             <div className="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
               <span className="font-label-sm text-[10px] text-on-surface-variant">PAGE 142</span>
-              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href = '/library'}>Jump to Page</button>
+              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => navigate('/library')}>Jump to Page</button>
             </div>
           </div>
           <div className="min-w-[320px] glass-card bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4 hover:shadow-lg transition-shadow duration-300">
@@ -179,7 +181,7 @@ export const KitchenDashboard = () => {
             <p className="text-sm italic opacity-70">"Mastering Koji and Fermentation"</p>
             <div className="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
               <span className="font-label-sm text-[10px] text-on-surface-variant">PAGE 289</span>
-              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href = '/library'}>Jump to Page</button>
+              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => navigate('/library')}>Jump to Page</button>
             </div>
           </div>
           <div className="min-w-[320px] glass-card bg-white/20 p-8 rounded-3xl border border-secondary/10 flex flex-col gap-4 hover:shadow-lg transition-shadow duration-300">
@@ -188,7 +190,7 @@ export const KitchenDashboard = () => {
             <p className="text-sm italic opacity-70">"The Art of the Soufflé"</p>
             <div className="mt-auto pt-6 border-t border-outline-variant/30 flex justify-between items-center">
               <span className="font-label-sm text-[10px] text-on-surface-variant">PAGE 56</span>
-              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => window.location.href = '/library'}>Jump to Page</button>
+              <button className="text-secondary hover:underline font-label-sm text-xs" onClick={() => navigate('/library')}>Jump to Page</button>
             </div>
           </div>
         </div>
@@ -204,6 +206,7 @@ export const KitchenDashboard = () => {
           </button>
         </div>
         <div className="glass-card rounded-3xl overflow-hidden bg-white/10">
+          <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse">
             <thead>
               <tr className="border-b border-outline-variant/30 text-on-surface-variant font-label-sm text-[10px] uppercase tracking-widest">
@@ -238,6 +241,7 @@ export const KitchenDashboard = () => {
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
       </section>
     </div>

@@ -9,21 +9,39 @@ export const GenerateRecipe = () => {
   const [ingredients, setIngredients] = useState('');
   const [timeLimit, setTimeLimit] = useState('30m');
   const [dietary, setDietary] = useState<string[]>([]);
+  const [generatedData, setGeneratedData] = useState<{title: string, ingredients: string[], directions: string} | null>(null);
   
-  const handleGenerate = (e: React.FormEvent) => {
+  const handleGenerate = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!ingredients.trim()) return;
     setGenerationState('generating');
-  };
-
-  useEffect(() => {
-    if (generationState === 'generating') {
-      const timer = setTimeout(() => {
+    
+    try {
+      const ingredientList = ingredients.split(',').map(i => i.trim()).filter(i => i);
+      const res = await fetch('/api/generate-recipe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ingredients: ingredientList })
+      });
+      
+      if (!res.ok) throw new Error('Generation failed');
+      
+      const data = await res.json();
+      setGeneratedData(data);
+      setGenerationState('result');
+    } catch (err) {
+      console.error(err);
+      // Fallback if backend isn't running
+      setTimeout(() => {
+        setGeneratedData({
+          title: "AI Synthesis Error",
+          ingredients: ["Make sure the backend is running"],
+          directions: "Run uvicorn app.main:app in the backend folder."
+        });
         setGenerationState('result');
-      }, 4500);
-      return () => clearTimeout(timer);
+      }, 2000);
     }
-  }, [generationState]);
+  };
 
   const toggleDietary = (diet: string) => {
     setDietary(prev => 
@@ -151,7 +169,7 @@ export const GenerateRecipe = () => {
             <div className="flex justify-between items-end mb-8">
               <div>
                 <span className="bg-secondary/10 text-secondary font-bold px-3 py-1 rounded-full uppercase tracking-tighter mb-3 inline-block">Synthesis Complete</span>
-                <h2 className="font-display-lg text-4xl text-primary">Citrus-Braised Chicken with Wilted Greens</h2>
+                <h2 className="font-display-lg text-4xl text-primary">{generatedData?.title || 'Generated Recipe'}</h2>
               </div>
               <button 
                 onClick={() => setGenerationState('idle')}
@@ -184,10 +202,16 @@ export const GenerateRecipe = () => {
 
               {/* Action Board */}
               <div className="md:col-span-7 flex flex-col gap-6 justify-center">
-                <div className="glass-card p-6 rounded-2xl bg-surface-container-low border border-outline-variant/30">
-                  <h4 className="font-bold text-primary mb-2">Why this works:</h4>
-                  <p className="text-on-surface-variant text-sm leading-relaxed">
-                    The acidity of the lemons cuts through the rich fat of the chicken thighs. Searing the chicken first ensures Maillard reaction perfection, while the residual fond provides a robust base for wilting the spinach.
+                <div className="glass-card p-6 rounded-2xl bg-surface-container-low border border-outline-variant/30 max-h-64 overflow-y-auto no-scrollbar">
+                  <h4 className="font-bold text-primary mb-2">Ingredients</h4>
+                  <ul className="list-disc pl-5 mb-4 text-on-surface-variant text-sm">
+                    {generatedData?.ingredients.map((ing, idx) => (
+                      <li key={idx}>{ing}</li>
+                    ))}
+                  </ul>
+                  <h4 className="font-bold text-primary mb-2">Directions</h4>
+                  <p className="text-on-surface-variant text-sm leading-relaxed whitespace-pre-wrap">
+                    {generatedData?.directions}
                   </p>
                 </div>
 

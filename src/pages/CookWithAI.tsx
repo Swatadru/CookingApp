@@ -41,7 +41,7 @@ export const CookWithAI = () => {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter min-h-[600px] stagger-children">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-gutter lg:min-h-[600px] stagger-children">
         
         {/* Left Panel: Chat Interface */}
         <div className="lg:col-span-5 flex flex-col glass-card rounded-[2.5rem] p-6 shadow-xl relative overflow-hidden bg-white/40">
