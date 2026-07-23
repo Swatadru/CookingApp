@@ -1,0 +1,24 @@
+# ── Core Framework ────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Database ──────────────────────────────────────────────
+sqlalchemy
+psycopg2-binary
+alembic
+
+# ── Settings / Validation ─────────────────────────────────
+pydantic
+pydantic-settings
+python-dotenv
+
+# ── Machine Learning (Phase 8 Validity Classifier) ───────
+xgboost
+scikit-learn
+numpy
+pandas
+joblib
+
+# ── Existing Dependencies ────────────────────────────────
+# (already installed for Phases 1-4)
+# torch, transformers, scipy, etc.

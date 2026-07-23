@@ -1,0 +1,35 @@
+# Node
+node_modules/
+dist/
+build/
+.next/
+out/
+.nuxt/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Tests
+.pytest_cache/
+coverage/
+.coverage
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# IDE specific for agent
+.agents/
+scratch/
