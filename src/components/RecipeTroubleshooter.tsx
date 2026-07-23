@@ -11,7 +11,7 @@ interface RecipeTroubleshooterProps {
 function getAIResponse(userMessage: string): string {
   const lower = userMessage.toLowerCase();
   for (const entry of troubleshooterResponses) {
-    if (entry.keywords.some((kw) => lower.includes(kw))) {
+    if (entry.keywords.some((kw: string) => lower.includes(kw))) {
       return entry.response;
     }
   }

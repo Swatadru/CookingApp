@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { chatHistory } from '../data/mockData';
+import type { ChatMessage } from '../data/mockData';
 import { useCookingSession } from '../context/CookingSessionContext';
 
 interface SidebarProps {
@@ -9,7 +10,7 @@ interface SidebarProps {
 
 export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
   const { skillLevel, triggerSelfHealing } = useCookingSession();
-  const [messages, setMessages] = useState(chatHistory);
+  const [messages, setMessages] = useState<ChatMessage[]>(chatHistory as ChatMessage[]);
   const [isTyping, setIsTyping] = useState(false);
   const [inputValue, setInputValue] = useState('');
   
@@ -46,22 +47,22 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
 
   const handleSend = () => {
     if (!inputValue.trim()) return;
-    setMessages(prev => [...prev, { role: 'user', text: inputValue }]);
+    setMessages((prev: ChatMessage[]) => [...prev, { role: 'user', text: inputValue }]);
     setInputValue('');
     setIsTyping(true);
     setTimeout(() => {
-      setMessages(prev => [...prev, { role: 'ai', text: "I'm processing your request. Please wait a moment." }]);
+      setMessages((prev: ChatMessage[]) => [...prev, { role: 'ai', text: "I'm processing your request. Please wait a moment." }]);
       setIsTyping(false);
     }, 1000);
   };
 
   const handleDiagnosticClick = (issue: string) => {
-    setMessages(prev => [...prev, { role: 'user', text: issue }]);
+    setMessages((prev: ChatMessage[]) => [...prev, { role: 'user', text: issue }]);
     triggerSelfHealing();
     setIsTyping(true);
     
     setTimeout(() => {
-      setMessages(prev => [...prev, { 
+      setMessages((prev: ChatMessage[]) => [...prev, { 
         role: 'ai', 
         text: `I've detected a state conflict. Initiating Self-Healing Protocol... I am recalculating the next steps based on your ${skillLevel} skill level. Please reduce heat by 10% immediately.` 
       }]);
@@ -71,10 +72,10 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
-      setMessages(prev => [...prev, { role: 'user', text: '[Image Uploaded for Visual Diagnosis]' }]);
+      setMessages((prev: ChatMessage[]) => [...prev, { role: 'user', text: '[Image Uploaded for Visual Diagnosis]' }]);
       setIsTyping(true);
       setTimeout(() => {
-        setMessages(prev => [...prev, { 
+        setMessages((prev: ChatMessage[]) => [...prev, { 
           role: 'ai', 
           text: 'VLM Analysis complete. Surface browning is currently at level 7 (optimal). The pan temperature appears to be slightly too high. Reduce heat to medium.' 
         }]);
@@ -134,7 +135,7 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
 
         {/* Chat Content area */}
         <div className="flex-1 overflow-y-auto space-y-6 mb-6 pr-4 no-scrollbar">
-          {messages.map((msg, idx) => (
+          {messages.map((msg: ChatMessage, idx: number) => (
             <div 
               key={idx} 
               className={msg.role === 'ai' 
