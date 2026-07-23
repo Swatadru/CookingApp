@@ -3,8 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import json
 import os
-from transformers import T5Tokenizer, T5ForConditionalGeneration
-
+try:
+    from transformers import T5Tokenizer, T5ForConditionalGeneration
+except ImportError:
+    T5Tokenizer, T5ForConditionalGeneration = None, None
 app = FastAPI(title="Sous-Chef AI Backend")
 
 # Enable CORS for the Vite frontend
@@ -71,10 +73,15 @@ async def startup_event():
 
 @app.post("/api/generate-recipe")
 async def generate_recipe(req: RecipeRequest):
-    if not MODEL or not TOKENIZER:
-        raise HTTPException(status_code=503, detail="Model is currently loading or unavailable")
-
     ingredients_str = ", ".join(req.ingredients)
+    if not MODEL or not TOKENIZER:
+        return {
+            "title": f"AI Recipe for {ingredients_str}",
+            "ingredients": req.ingredients,
+            "directions": "Improvise with the ingredients above. (AI synthesis is disabled in Serverless environment).",
+            "raw_output": ""
+        }
+    
     input_text = f"generate recipe: {ingredients_str}"
     
     input_ids = TOKENIZER(input_text, return_tensors="pt").input_ids

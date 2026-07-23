@@ -1,10 +1,5 @@
 fastapi
 uvicorn
 pydantic
-torch
-transformers
-datasets
 pandas
-sentencepiece
-accelerate>=1.1.0
 supabase
