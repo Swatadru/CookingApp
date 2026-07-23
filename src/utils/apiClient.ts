@@ -181,35 +181,18 @@ export const apiClient = {
       return await res.json();
     } catch (err) {
       console.warn(`[API Mock Fallback] ${url} failed, using fallback data.`, err);
-      let filtered = mockRecipes;
-      if (cuisine && cuisine !== 'All') {
-        filtered = filtered.filter(r => r.cuisine === cuisine);
-      }
-      if (search) {
-        const s = search.toLowerCase();
-        filtered = filtered.filter(r => 
-          r.title.toLowerCase().includes(s) || 
-          r.ingredients.some((i: string) => i.toLowerCase().includes(s))
-        );
-      }
-      const total = filtered.length;
-      const start = (page - 1) * limit;
-      const data = filtered.slice(start, start + limit);
-      
       return {
-        data,
-        total,
-        page,
-        limit,
-        totalPages: Math.ceil(total / limit) || 1
+        data: [],
+        total: 0,
+        page: 1,
+        limit: 12,
+        totalPages: 0
       };
     }
   },
 
   getRecipeById: async (recipeId: string) => {
-    return getJSON<any>(`/api/recipes/detail/${recipeId}`, () => {
-      return mockRecipes.find(r => r.id === recipeId) || {} as any;
-    });
+    return getJSON<any>(`/api/recipes/detail/${recipeId}`, () => ({} as any));
   },
 
   // 1. USER MANAGEMENT
@@ -493,17 +476,7 @@ export const apiClient = {
     return postJSON(
       `/api/recipes/search`,
       { ingredients: ingredients.join(', '), top_k: topK },
-      () => {
-        // Fallback: simple text search
-        const query = ingredients.join(' ').toLowerCase();
-        return mockRecipes
-          .map(r => ({
-            title: r.title,
-            ingredients: r.ingredients,
-            similarity_score: r.ingredients.join(' ').toLowerCase().includes(query) ? 0.9 : 0.5
-          }))
-          .slice(0, topK);
-      }
+      () => []
     );
   },
 

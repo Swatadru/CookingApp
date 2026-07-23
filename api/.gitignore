@@ -1,0 +1,6 @@
+__pycache__/
+nutrition_lookup.json
+trained_recipe_model_final/
+*.pt
+*.bin
+*.safetensors

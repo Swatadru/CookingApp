@@ -1,0 +1,7334 @@
+[
+  {
+    "id": "r1",
+    "title": "Spicy Tofu Stir Fry (Variation 1)",
+    "description": "A wonderful Indian dish perfect for lunch.",
+    "prepTime": "44 min",
+    "calories": 785,
+    "protein": 42,
+    "fat": 9,
+    "carbs": 13,
+    "cuisine": "Indian",
+    "category": "Lunch",
+    "tags": [
+      "indian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r2",
+    "title": "Spicy Tofu Stir Fry (Variation 2)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "51 min",
+    "calories": 289,
+    "protein": 17,
+    "fat": 30,
+    "carbs": 54,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r3",
+    "title": "Mexican Rice Bowl (Variation 3)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "14 min",
+    "calories": 779,
+    "protein": 40,
+    "fat": 33,
+    "carbs": 75,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r4",
+    "title": "Beef Tacos (Variation 4)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "22 min",
+    "calories": 493,
+    "protein": 30,
+    "fat": 39,
+    "carbs": 23,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r5",
+    "title": "Classic Tomato Pasta (Variation 5)",
+    "description": "A wonderful Mexican dish perfect for lunch.",
+    "prepTime": "54 min",
+    "calories": 760,
+    "protein": 10,
+    "fat": 18,
+    "carbs": 23,
+    "cuisine": "Mexican",
+    "category": "Lunch",
+    "tags": [
+      "mexican",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r6",
+    "title": "Chicken Tikka Masala (Variation 6)",
+    "description": "A wonderful Italian dish perfect for dessert.",
+    "prepTime": "43 min",
+    "calories": 485,
+    "protein": 5,
+    "fat": 33,
+    "carbs": 71,
+    "cuisine": "Italian",
+    "category": "Dessert",
+    "tags": [
+      "italian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r7",
+    "title": "Garlic Butter Chicken (Variation 7)",
+    "description": "A wonderful Japanese dish perfect for lunch.",
+    "prepTime": "14 min",
+    "calories": 654,
+    "protein": 32,
+    "fat": 12,
+    "carbs": 63,
+    "cuisine": "Japanese",
+    "category": "Lunch",
+    "tags": [
+      "japanese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r8",
+    "title": "Classic Tomato Pasta (Variation 8)",
+    "description": "A wonderful Thai dish perfect for snack.",
+    "prepTime": "57 min",
+    "calories": 218,
+    "protein": 49,
+    "fat": 21,
+    "carbs": 99,
+    "cuisine": "Thai",
+    "category": "Snack",
+    "tags": [
+      "thai",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r9",
+    "title": "Classic Tomato Pasta (Variation 9)",
+    "description": "A wonderful Thai dish perfect for snack.",
+    "prepTime": "24 min",
+    "calories": 303,
+    "protein": 6,
+    "fat": 10,
+    "carbs": 61,
+    "cuisine": "Thai",
+    "category": "Snack",
+    "tags": [
+      "thai",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r10",
+    "title": "Pad Thai (Variation 10)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "24 min",
+    "calories": 697,
+    "protein": 38,
+    "fat": 38,
+    "carbs": 72,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r11",
+    "title": "Beef Tacos (Variation 11)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "51 min",
+    "calories": 726,
+    "protein": 34,
+    "fat": 38,
+    "carbs": 61,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r12",
+    "title": "Mushroom Risotto (Variation 12)",
+    "description": "A wonderful Mediterranean dish perfect for lunch.",
+    "prepTime": "55 min",
+    "calories": 473,
+    "protein": 5,
+    "fat": 31,
+    "carbs": 80,
+    "cuisine": "Mediterranean",
+    "category": "Lunch",
+    "tags": [
+      "mediterranean",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r13",
+    "title": "Garlic Butter Chicken (Variation 13)",
+    "description": "A wonderful Japanese dish perfect for dessert.",
+    "prepTime": "14 min",
+    "calories": 708,
+    "protein": 40,
+    "fat": 6,
+    "carbs": 95,
+    "cuisine": "Japanese",
+    "category": "Dessert",
+    "tags": [
+      "japanese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r14",
+    "title": "Lemon Butter Salmon (Variation 14)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "27 min",
+    "calories": 768,
+    "protein": 42,
+    "fat": 11,
+    "carbs": 56,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r15",
+    "title": "Spicy Tofu Stir Fry (Variation 15)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "12 min",
+    "calories": 261,
+    "protein": 7,
+    "fat": 11,
+    "carbs": 20,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r16",
+    "title": "Lemon Butter Salmon (Variation 16)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "18 min",
+    "calories": 372,
+    "protein": 27,
+    "fat": 31,
+    "carbs": 86,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r17",
+    "title": "Mushroom Risotto (Variation 17)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "26 min",
+    "calories": 393,
+    "protein": 30,
+    "fat": 23,
+    "carbs": 56,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r18",
+    "title": "Mexican Rice Bowl (Variation 18)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "42 min",
+    "calories": 679,
+    "protein": 35,
+    "fat": 38,
+    "carbs": 18,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r19",
+    "title": "Mushroom Risotto (Variation 19)",
+    "description": "A wonderful Mediterranean dish perfect for lunch.",
+    "prepTime": "43 min",
+    "calories": 263,
+    "protein": 30,
+    "fat": 28,
+    "carbs": 91,
+    "cuisine": "Mediterranean",
+    "category": "Lunch",
+    "tags": [
+      "mediterranean",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r20",
+    "title": "Beef Tacos (Variation 20)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "39 min",
+    "calories": 217,
+    "protein": 12,
+    "fat": 22,
+    "carbs": 40,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r21",
+    "title": "Classic Tomato Pasta (Variation 21)",
+    "description": "A wonderful Japanese dish perfect for breakfast.",
+    "prepTime": "44 min",
+    "calories": 296,
+    "protein": 15,
+    "fat": 21,
+    "carbs": 49,
+    "cuisine": "Japanese",
+    "category": "Breakfast",
+    "tags": [
+      "japanese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r22",
+    "title": "Cheesy Spinach Omelette (Variation 22)",
+    "description": "A wonderful Italian dish perfect for breakfast.",
+    "prepTime": "25 min",
+    "calories": 563,
+    "protein": 8,
+    "fat": 39,
+    "carbs": 12,
+    "cuisine": "Italian",
+    "category": "Breakfast",
+    "tags": [
+      "italian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r23",
+    "title": "Garlic Butter Chicken (Variation 23)",
+    "description": "A wonderful Chinese dish perfect for snack.",
+    "prepTime": "32 min",
+    "calories": 271,
+    "protein": 44,
+    "fat": 21,
+    "carbs": 26,
+    "cuisine": "Chinese",
+    "category": "Snack",
+    "tags": [
+      "chinese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r24",
+    "title": "Mushroom Risotto (Variation 24)",
+    "description": "A wonderful Thai dish perfect for snack.",
+    "prepTime": "10 min",
+    "calories": 580,
+    "protein": 47,
+    "fat": 22,
+    "carbs": 19,
+    "cuisine": "Thai",
+    "category": "Snack",
+    "tags": [
+      "thai",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r25",
+    "title": "Mushroom Risotto (Variation 25)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "51 min",
+    "calories": 654,
+    "protein": 15,
+    "fat": 19,
+    "carbs": 85,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r26",
+    "title": "Spicy Tofu Stir Fry (Variation 26)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "29 min",
+    "calories": 736,
+    "protein": 24,
+    "fat": 24,
+    "carbs": 95,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r27",
+    "title": "Lemon Butter Salmon (Variation 27)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "33 min",
+    "calories": 638,
+    "protein": 49,
+    "fat": 12,
+    "carbs": 50,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r28",
+    "title": "Mexican Rice Bowl (Variation 28)",
+    "description": "A wonderful Indian dish perfect for breakfast.",
+    "prepTime": "58 min",
+    "calories": 518,
+    "protein": 39,
+    "fat": 39,
+    "carbs": 81,
+    "cuisine": "Indian",
+    "category": "Breakfast",
+    "tags": [
+      "indian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r29",
+    "title": "Cheesy Spinach Omelette (Variation 29)",
+    "description": "A wonderful Japanese dish perfect for dessert.",
+    "prepTime": "43 min",
+    "calories": 705,
+    "protein": 24,
+    "fat": 13,
+    "carbs": 96,
+    "cuisine": "Japanese",
+    "category": "Dessert",
+    "tags": [
+      "japanese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r30",
+    "title": "Spicy Tofu Stir Fry (Variation 30)",
+    "description": "A wonderful Thai dish perfect for dessert.",
+    "prepTime": "43 min",
+    "calories": 569,
+    "protein": 38,
+    "fat": 39,
+    "carbs": 80,
+    "cuisine": "Thai",
+    "category": "Dessert",
+    "tags": [
+      "thai",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r31",
+    "title": "Mexican Rice Bowl (Variation 31)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "17 min",
+    "calories": 540,
+    "protein": 17,
+    "fat": 17,
+    "carbs": 12,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r32",
+    "title": "Chicken Tikka Masala (Variation 32)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "20 min",
+    "calories": 757,
+    "protein": 7,
+    "fat": 14,
+    "carbs": 65,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r33",
+    "title": "Cheesy Spinach Omelette (Variation 33)",
+    "description": "A wonderful Japanese dish perfect for dessert.",
+    "prepTime": "41 min",
+    "calories": 774,
+    "protein": 5,
+    "fat": 18,
+    "carbs": 75,
+    "cuisine": "Japanese",
+    "category": "Dessert",
+    "tags": [
+      "japanese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r34",
+    "title": "Chicken Tikka Masala (Variation 34)",
+    "description": "A wonderful Italian dish perfect for dessert.",
+    "prepTime": "38 min",
+    "calories": 460,
+    "protein": 10,
+    "fat": 39,
+    "carbs": 72,
+    "cuisine": "Italian",
+    "category": "Dessert",
+    "tags": [
+      "italian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r35",
+    "title": "Garlic Butter Chicken (Variation 35)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "24 min",
+    "calories": 227,
+    "protein": 16,
+    "fat": 24,
+    "carbs": 12,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r36",
+    "title": "Lemon Butter Salmon (Variation 36)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "47 min",
+    "calories": 254,
+    "protein": 29,
+    "fat": 12,
+    "carbs": 58,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r37",
+    "title": "Mushroom Risotto (Variation 37)",
+    "description": "A wonderful American dish perfect for dinner.",
+    "prepTime": "30 min",
+    "calories": 598,
+    "protein": 21,
+    "fat": 15,
+    "carbs": 83,
+    "cuisine": "American",
+    "category": "Dinner",
+    "tags": [
+      "american",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r38",
+    "title": "Mexican Rice Bowl (Variation 38)",
+    "description": "A wonderful Japanese dish perfect for dessert.",
+    "prepTime": "59 min",
+    "calories": 746,
+    "protein": 16,
+    "fat": 18,
+    "carbs": 37,
+    "cuisine": "Japanese",
+    "category": "Dessert",
+    "tags": [
+      "japanese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r39",
+    "title": "Mushroom Risotto (Variation 39)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "18 min",
+    "calories": 269,
+    "protein": 10,
+    "fat": 17,
+    "carbs": 60,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r40",
+    "title": "Lemon Butter Salmon (Variation 40)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "18 min",
+    "calories": 570,
+    "protein": 32,
+    "fat": 22,
+    "carbs": 65,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r41",
+    "title": "Garlic Butter Chicken (Variation 41)",
+    "description": "A wonderful Indian dish perfect for breakfast.",
+    "prepTime": "43 min",
+    "calories": 730,
+    "protein": 49,
+    "fat": 38,
+    "carbs": 35,
+    "cuisine": "Indian",
+    "category": "Breakfast",
+    "tags": [
+      "indian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r42",
+    "title": "Spicy Tofu Stir Fry (Variation 42)",
+    "description": "A wonderful Thai dish perfect for dessert.",
+    "prepTime": "18 min",
+    "calories": 287,
+    "protein": 21,
+    "fat": 28,
+    "carbs": 46,
+    "cuisine": "Thai",
+    "category": "Dessert",
+    "tags": [
+      "thai",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r43",
+    "title": "Classic Tomato Pasta (Variation 43)",
+    "description": "A wonderful American dish perfect for snack.",
+    "prepTime": "40 min",
+    "calories": 577,
+    "protein": 41,
+    "fat": 13,
+    "carbs": 20,
+    "cuisine": "American",
+    "category": "Snack",
+    "tags": [
+      "american",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r44",
+    "title": "Lemon Butter Salmon (Variation 44)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "23 min",
+    "calories": 469,
+    "protein": 20,
+    "fat": 10,
+    "carbs": 61,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r45",
+    "title": "Mushroom Risotto (Variation 45)",
+    "description": "A wonderful Mediterranean dish perfect for snack.",
+    "prepTime": "36 min",
+    "calories": 503,
+    "protein": 49,
+    "fat": 39,
+    "carbs": 85,
+    "cuisine": "Mediterranean",
+    "category": "Snack",
+    "tags": [
+      "mediterranean",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r46",
+    "title": "Garlic Butter Chicken (Variation 46)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "38 min",
+    "calories": 423,
+    "protein": 24,
+    "fat": 8,
+    "carbs": 52,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r47",
+    "title": "Mushroom Risotto (Variation 47)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "47 min",
+    "calories": 627,
+    "protein": 45,
+    "fat": 31,
+    "carbs": 43,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r48",
+    "title": "Mexican Rice Bowl (Variation 48)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "54 min",
+    "calories": 309,
+    "protein": 42,
+    "fat": 38,
+    "carbs": 93,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r49",
+    "title": "Lemon Butter Salmon (Variation 49)",
+    "description": "A wonderful Japanese dish perfect for breakfast.",
+    "prepTime": "47 min",
+    "calories": 310,
+    "protein": 13,
+    "fat": 9,
+    "carbs": 83,
+    "cuisine": "Japanese",
+    "category": "Breakfast",
+    "tags": [
+      "japanese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r50",
+    "title": "Lemon Butter Salmon (Variation 50)",
+    "description": "A wonderful Mediterranean dish perfect for snack.",
+    "prepTime": "49 min",
+    "calories": 576,
+    "protein": 21,
+    "fat": 24,
+    "carbs": 98,
+    "cuisine": "Mediterranean",
+    "category": "Snack",
+    "tags": [
+      "mediterranean",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r51",
+    "title": "Beef Tacos (Variation 51)",
+    "description": "A wonderful Thai dish perfect for lunch.",
+    "prepTime": "31 min",
+    "calories": 351,
+    "protein": 21,
+    "fat": 30,
+    "carbs": 98,
+    "cuisine": "Thai",
+    "category": "Lunch",
+    "tags": [
+      "thai",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r52",
+    "title": "Lemon Butter Salmon (Variation 52)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "42 min",
+    "calories": 532,
+    "protein": 13,
+    "fat": 18,
+    "carbs": 38,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r53",
+    "title": "Mexican Rice Bowl (Variation 53)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "27 min",
+    "calories": 326,
+    "protein": 6,
+    "fat": 20,
+    "carbs": 19,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r54",
+    "title": "Chicken Tikka Masala (Variation 54)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "55 min",
+    "calories": 355,
+    "protein": 29,
+    "fat": 36,
+    "carbs": 65,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r55",
+    "title": "Mexican Rice Bowl (Variation 55)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "16 min",
+    "calories": 448,
+    "protein": 47,
+    "fat": 31,
+    "carbs": 34,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r56",
+    "title": "Mexican Rice Bowl (Variation 56)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "57 min",
+    "calories": 604,
+    "protein": 39,
+    "fat": 31,
+    "carbs": 25,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r57",
+    "title": "Cheesy Spinach Omelette (Variation 57)",
+    "description": "A wonderful Japanese dish perfect for snack.",
+    "prepTime": "27 min",
+    "calories": 335,
+    "protein": 19,
+    "fat": 32,
+    "carbs": 97,
+    "cuisine": "Japanese",
+    "category": "Snack",
+    "tags": [
+      "japanese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r58",
+    "title": "Lemon Butter Salmon (Variation 58)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "40 min",
+    "calories": 584,
+    "protein": 40,
+    "fat": 7,
+    "carbs": 13,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r59",
+    "title": "Pad Thai (Variation 59)",
+    "description": "A wonderful Indian dish perfect for lunch.",
+    "prepTime": "46 min",
+    "calories": 227,
+    "protein": 31,
+    "fat": 29,
+    "carbs": 96,
+    "cuisine": "Indian",
+    "category": "Lunch",
+    "tags": [
+      "indian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r60",
+    "title": "Spicy Tofu Stir Fry (Variation 60)",
+    "description": "A wonderful Mediterranean dish perfect for snack.",
+    "prepTime": "45 min",
+    "calories": 439,
+    "protein": 45,
+    "fat": 30,
+    "carbs": 50,
+    "cuisine": "Mediterranean",
+    "category": "Snack",
+    "tags": [
+      "mediterranean",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r61",
+    "title": "Classic Tomato Pasta (Variation 61)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "35 min",
+    "calories": 208,
+    "protein": 19,
+    "fat": 34,
+    "carbs": 81,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r62",
+    "title": "Mexican Rice Bowl (Variation 62)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "46 min",
+    "calories": 285,
+    "protein": 36,
+    "fat": 19,
+    "carbs": 98,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r63",
+    "title": "Beef Tacos (Variation 63)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "58 min",
+    "calories": 783,
+    "protein": 25,
+    "fat": 18,
+    "carbs": 88,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r64",
+    "title": "Lemon Butter Salmon (Variation 64)",
+    "description": "A wonderful American dish perfect for snack.",
+    "prepTime": "59 min",
+    "calories": 678,
+    "protein": 32,
+    "fat": 5,
+    "carbs": 68,
+    "cuisine": "American",
+    "category": "Snack",
+    "tags": [
+      "american",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r65",
+    "title": "Lemon Butter Salmon (Variation 65)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "21 min",
+    "calories": 668,
+    "protein": 46,
+    "fat": 12,
+    "carbs": 27,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r66",
+    "title": "Lemon Butter Salmon (Variation 66)",
+    "description": "A wonderful Thai dish perfect for lunch.",
+    "prepTime": "55 min",
+    "calories": 450,
+    "protein": 24,
+    "fat": 28,
+    "carbs": 51,
+    "cuisine": "Thai",
+    "category": "Lunch",
+    "tags": [
+      "thai",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r67",
+    "title": "Cheesy Spinach Omelette (Variation 67)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "23 min",
+    "calories": 678,
+    "protein": 19,
+    "fat": 25,
+    "carbs": 60,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r68",
+    "title": "Chicken Tikka Masala (Variation 68)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "45 min",
+    "calories": 295,
+    "protein": 15,
+    "fat": 29,
+    "carbs": 16,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r69",
+    "title": "Mexican Rice Bowl (Variation 69)",
+    "description": "A wonderful French dish perfect for dinner.",
+    "prepTime": "21 min",
+    "calories": 799,
+    "protein": 20,
+    "fat": 36,
+    "carbs": 57,
+    "cuisine": "French",
+    "category": "Dinner",
+    "tags": [
+      "french",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r70",
+    "title": "Pad Thai (Variation 70)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "46 min",
+    "calories": 389,
+    "protein": 49,
+    "fat": 17,
+    "carbs": 27,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r71",
+    "title": "Cheesy Spinach Omelette (Variation 71)",
+    "description": "A wonderful Mediterranean dish perfect for lunch.",
+    "prepTime": "27 min",
+    "calories": 327,
+    "protein": 11,
+    "fat": 21,
+    "carbs": 85,
+    "cuisine": "Mediterranean",
+    "category": "Lunch",
+    "tags": [
+      "mediterranean",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r72",
+    "title": "Cheesy Spinach Omelette (Variation 72)",
+    "description": "A wonderful American dish perfect for snack.",
+    "prepTime": "32 min",
+    "calories": 572,
+    "protein": 41,
+    "fat": 20,
+    "carbs": 37,
+    "cuisine": "American",
+    "category": "Snack",
+    "tags": [
+      "american",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r73",
+    "title": "Spicy Tofu Stir Fry (Variation 73)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "54 min",
+    "calories": 777,
+    "protein": 26,
+    "fat": 23,
+    "carbs": 89,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r74",
+    "title": "Classic Tomato Pasta (Variation 74)",
+    "description": "A wonderful Japanese dish perfect for lunch.",
+    "prepTime": "51 min",
+    "calories": 704,
+    "protein": 14,
+    "fat": 30,
+    "carbs": 26,
+    "cuisine": "Japanese",
+    "category": "Lunch",
+    "tags": [
+      "japanese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r75",
+    "title": "Garlic Butter Chicken (Variation 75)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "39 min",
+    "calories": 288,
+    "protein": 11,
+    "fat": 14,
+    "carbs": 75,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r76",
+    "title": "Chicken Tikka Masala (Variation 76)",
+    "description": "A wonderful Mediterranean dish perfect for snack.",
+    "prepTime": "37 min",
+    "calories": 213,
+    "protein": 5,
+    "fat": 37,
+    "carbs": 54,
+    "cuisine": "Mediterranean",
+    "category": "Snack",
+    "tags": [
+      "mediterranean",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r77",
+    "title": "Spicy Tofu Stir Fry (Variation 77)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "33 min",
+    "calories": 492,
+    "protein": 37,
+    "fat": 9,
+    "carbs": 84,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r78",
+    "title": "Garlic Butter Chicken (Variation 78)",
+    "description": "A wonderful Mediterranean dish perfect for snack.",
+    "prepTime": "14 min",
+    "calories": 618,
+    "protein": 18,
+    "fat": 29,
+    "carbs": 32,
+    "cuisine": "Mediterranean",
+    "category": "Snack",
+    "tags": [
+      "mediterranean",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r79",
+    "title": "Mexican Rice Bowl (Variation 79)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "45 min",
+    "calories": 657,
+    "protein": 48,
+    "fat": 35,
+    "carbs": 22,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r80",
+    "title": "Pad Thai (Variation 80)",
+    "description": "A wonderful Japanese dish perfect for breakfast.",
+    "prepTime": "27 min",
+    "calories": 686,
+    "protein": 39,
+    "fat": 30,
+    "carbs": 19,
+    "cuisine": "Japanese",
+    "category": "Breakfast",
+    "tags": [
+      "japanese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r81",
+    "title": "Cheesy Spinach Omelette (Variation 81)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "12 min",
+    "calories": 450,
+    "protein": 37,
+    "fat": 38,
+    "carbs": 54,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r82",
+    "title": "Garlic Butter Chicken (Variation 82)",
+    "description": "A wonderful Thai dish perfect for dinner.",
+    "prepTime": "46 min",
+    "calories": 227,
+    "protein": 18,
+    "fat": 26,
+    "carbs": 66,
+    "cuisine": "Thai",
+    "category": "Dinner",
+    "tags": [
+      "thai",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r83",
+    "title": "Lemon Butter Salmon (Variation 83)",
+    "description": "A wonderful American dish perfect for dinner.",
+    "prepTime": "19 min",
+    "calories": 754,
+    "protein": 34,
+    "fat": 17,
+    "carbs": 18,
+    "cuisine": "American",
+    "category": "Dinner",
+    "tags": [
+      "american",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r84",
+    "title": "Classic Tomato Pasta (Variation 84)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "38 min",
+    "calories": 514,
+    "protein": 35,
+    "fat": 7,
+    "carbs": 69,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r85",
+    "title": "Pad Thai (Variation 85)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "34 min",
+    "calories": 485,
+    "protein": 9,
+    "fat": 17,
+    "carbs": 74,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r86",
+    "title": "Mexican Rice Bowl (Variation 86)",
+    "description": "A wonderful American dish perfect for dinner.",
+    "prepTime": "50 min",
+    "calories": 602,
+    "protein": 9,
+    "fat": 7,
+    "carbs": 86,
+    "cuisine": "American",
+    "category": "Dinner",
+    "tags": [
+      "american",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r87",
+    "title": "Mexican Rice Bowl (Variation 87)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "25 min",
+    "calories": 468,
+    "protein": 41,
+    "fat": 37,
+    "carbs": 72,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r88",
+    "title": "Pad Thai (Variation 88)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "42 min",
+    "calories": 541,
+    "protein": 9,
+    "fat": 14,
+    "carbs": 38,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r89",
+    "title": "Pad Thai (Variation 89)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "15 min",
+    "calories": 257,
+    "protein": 33,
+    "fat": 39,
+    "carbs": 17,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r90",
+    "title": "Pad Thai (Variation 90)",
+    "description": "A wonderful French dish perfect for dessert.",
+    "prepTime": "12 min",
+    "calories": 462,
+    "protein": 49,
+    "fat": 39,
+    "carbs": 40,
+    "cuisine": "French",
+    "category": "Dessert",
+    "tags": [
+      "french",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r91",
+    "title": "Chicken Tikka Masala (Variation 91)",
+    "description": "A wonderful French dish perfect for breakfast.",
+    "prepTime": "39 min",
+    "calories": 202,
+    "protein": 40,
+    "fat": 28,
+    "carbs": 23,
+    "cuisine": "French",
+    "category": "Breakfast",
+    "tags": [
+      "french",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r92",
+    "title": "Cheesy Spinach Omelette (Variation 92)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "36 min",
+    "calories": 251,
+    "protein": 27,
+    "fat": 19,
+    "carbs": 12,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r93",
+    "title": "Pad Thai (Variation 93)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "41 min",
+    "calories": 572,
+    "protein": 43,
+    "fat": 15,
+    "carbs": 96,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r94",
+    "title": "Mushroom Risotto (Variation 94)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "37 min",
+    "calories": 223,
+    "protein": 12,
+    "fat": 7,
+    "carbs": 68,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r95",
+    "title": "Classic Tomato Pasta (Variation 95)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "14 min",
+    "calories": 266,
+    "protein": 25,
+    "fat": 33,
+    "carbs": 96,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r96",
+    "title": "Chicken Tikka Masala (Variation 96)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "12 min",
+    "calories": 201,
+    "protein": 49,
+    "fat": 31,
+    "carbs": 10,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r97",
+    "title": "Spicy Tofu Stir Fry (Variation 97)",
+    "description": "A wonderful American dish perfect for dinner.",
+    "prepTime": "28 min",
+    "calories": 334,
+    "protein": 38,
+    "fat": 26,
+    "carbs": 57,
+    "cuisine": "American",
+    "category": "Dinner",
+    "tags": [
+      "american",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r98",
+    "title": "Garlic Butter Chicken (Variation 98)",
+    "description": "A wonderful Italian dish perfect for breakfast.",
+    "prepTime": "21 min",
+    "calories": 477,
+    "protein": 45,
+    "fat": 17,
+    "carbs": 80,
+    "cuisine": "Italian",
+    "category": "Breakfast",
+    "tags": [
+      "italian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r99",
+    "title": "Pad Thai (Variation 99)",
+    "description": "A wonderful American dish perfect for lunch.",
+    "prepTime": "40 min",
+    "calories": 364,
+    "protein": 19,
+    "fat": 32,
+    "carbs": 91,
+    "cuisine": "American",
+    "category": "Lunch",
+    "tags": [
+      "american",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r100",
+    "title": "Lemon Butter Salmon (Variation 100)",
+    "description": "A wonderful Mediterranean dish perfect for dessert.",
+    "prepTime": "42 min",
+    "calories": 671,
+    "protein": 13,
+    "fat": 16,
+    "carbs": 47,
+    "cuisine": "Mediterranean",
+    "category": "Dessert",
+    "tags": [
+      "mediterranean",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r101",
+    "title": "Pad Thai (Variation 101)",
+    "description": "A wonderful Mediterranean dish perfect for breakfast.",
+    "prepTime": "52 min",
+    "calories": 308,
+    "protein": 45,
+    "fat": 39,
+    "carbs": 52,
+    "cuisine": "Mediterranean",
+    "category": "Breakfast",
+    "tags": [
+      "mediterranean",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r102",
+    "title": "Garlic Butter Chicken (Variation 102)",
+    "description": "A wonderful Mediterranean dish perfect for breakfast.",
+    "prepTime": "27 min",
+    "calories": 296,
+    "protein": 7,
+    "fat": 17,
+    "carbs": 34,
+    "cuisine": "Mediterranean",
+    "category": "Breakfast",
+    "tags": [
+      "mediterranean",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r103",
+    "title": "Classic Tomato Pasta (Variation 103)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "45 min",
+    "calories": 422,
+    "protein": 29,
+    "fat": 22,
+    "carbs": 76,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r104",
+    "title": "Spicy Tofu Stir Fry (Variation 104)",
+    "description": "A wonderful Mexican dish perfect for snack.",
+    "prepTime": "38 min",
+    "calories": 545,
+    "protein": 36,
+    "fat": 35,
+    "carbs": 73,
+    "cuisine": "Mexican",
+    "category": "Snack",
+    "tags": [
+      "mexican",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r105",
+    "title": "Spicy Tofu Stir Fry (Variation 105)",
+    "description": "A wonderful Japanese dish perfect for lunch.",
+    "prepTime": "36 min",
+    "calories": 296,
+    "protein": 35,
+    "fat": 29,
+    "carbs": 40,
+    "cuisine": "Japanese",
+    "category": "Lunch",
+    "tags": [
+      "japanese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r106",
+    "title": "Chicken Tikka Masala (Variation 106)",
+    "description": "A wonderful Thai dish perfect for lunch.",
+    "prepTime": "39 min",
+    "calories": 334,
+    "protein": 43,
+    "fat": 39,
+    "carbs": 96,
+    "cuisine": "Thai",
+    "category": "Lunch",
+    "tags": [
+      "thai",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r107",
+    "title": "Garlic Butter Chicken (Variation 107)",
+    "description": "A wonderful Japanese dish perfect for breakfast.",
+    "prepTime": "45 min",
+    "calories": 613,
+    "protein": 48,
+    "fat": 5,
+    "carbs": 30,
+    "cuisine": "Japanese",
+    "category": "Breakfast",
+    "tags": [
+      "japanese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r108",
+    "title": "Mushroom Risotto (Variation 108)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "14 min",
+    "calories": 621,
+    "protein": 23,
+    "fat": 34,
+    "carbs": 99,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r109",
+    "title": "Cheesy Spinach Omelette (Variation 109)",
+    "description": "A wonderful American dish perfect for dessert.",
+    "prepTime": "30 min",
+    "calories": 782,
+    "protein": 41,
+    "fat": 27,
+    "carbs": 60,
+    "cuisine": "American",
+    "category": "Dessert",
+    "tags": [
+      "american",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r110",
+    "title": "Spicy Tofu Stir Fry (Variation 110)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "19 min",
+    "calories": 670,
+    "protein": 21,
+    "fat": 39,
+    "carbs": 45,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r111",
+    "title": "Spicy Tofu Stir Fry (Variation 111)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "56 min",
+    "calories": 602,
+    "protein": 37,
+    "fat": 25,
+    "carbs": 93,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r112",
+    "title": "Garlic Butter Chicken (Variation 112)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "11 min",
+    "calories": 583,
+    "protein": 19,
+    "fat": 17,
+    "carbs": 54,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r113",
+    "title": "Garlic Butter Chicken (Variation 113)",
+    "description": "A wonderful Indian dish perfect for lunch.",
+    "prepTime": "27 min",
+    "calories": 487,
+    "protein": 43,
+    "fat": 29,
+    "carbs": 77,
+    "cuisine": "Indian",
+    "category": "Lunch",
+    "tags": [
+      "indian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r114",
+    "title": "Mushroom Risotto (Variation 114)",
+    "description": "A wonderful French dish perfect for dinner.",
+    "prepTime": "26 min",
+    "calories": 258,
+    "protein": 42,
+    "fat": 22,
+    "carbs": 83,
+    "cuisine": "French",
+    "category": "Dinner",
+    "tags": [
+      "french",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r115",
+    "title": "Spicy Tofu Stir Fry (Variation 115)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "47 min",
+    "calories": 513,
+    "protein": 30,
+    "fat": 13,
+    "carbs": 49,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r116",
+    "title": "Cheesy Spinach Omelette (Variation 116)",
+    "description": "A wonderful American dish perfect for lunch.",
+    "prepTime": "22 min",
+    "calories": 225,
+    "protein": 23,
+    "fat": 28,
+    "carbs": 18,
+    "cuisine": "American",
+    "category": "Lunch",
+    "tags": [
+      "american",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r117",
+    "title": "Spicy Tofu Stir Fry (Variation 117)",
+    "description": "A wonderful Thai dish perfect for snack.",
+    "prepTime": "40 min",
+    "calories": 761,
+    "protein": 15,
+    "fat": 10,
+    "carbs": 69,
+    "cuisine": "Thai",
+    "category": "Snack",
+    "tags": [
+      "thai",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r118",
+    "title": "Beef Tacos (Variation 118)",
+    "description": "A wonderful Thai dish perfect for dessert.",
+    "prepTime": "33 min",
+    "calories": 347,
+    "protein": 40,
+    "fat": 36,
+    "carbs": 69,
+    "cuisine": "Thai",
+    "category": "Dessert",
+    "tags": [
+      "thai",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r119",
+    "title": "Chicken Tikka Masala (Variation 119)",
+    "description": "A wonderful French dish perfect for dessert.",
+    "prepTime": "12 min",
+    "calories": 462,
+    "protein": 21,
+    "fat": 20,
+    "carbs": 92,
+    "cuisine": "French",
+    "category": "Dessert",
+    "tags": [
+      "french",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r120",
+    "title": "Lemon Butter Salmon (Variation 120)",
+    "description": "A wonderful French dish perfect for dessert.",
+    "prepTime": "40 min",
+    "calories": 489,
+    "protein": 25,
+    "fat": 39,
+    "carbs": 13,
+    "cuisine": "French",
+    "category": "Dessert",
+    "tags": [
+      "french",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r121",
+    "title": "Garlic Butter Chicken (Variation 121)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "56 min",
+    "calories": 674,
+    "protein": 12,
+    "fat": 35,
+    "carbs": 84,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r122",
+    "title": "Garlic Butter Chicken (Variation 122)",
+    "description": "A wonderful American dish perfect for lunch.",
+    "prepTime": "55 min",
+    "calories": 733,
+    "protein": 11,
+    "fat": 9,
+    "carbs": 92,
+    "cuisine": "American",
+    "category": "Lunch",
+    "tags": [
+      "american",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r123",
+    "title": "Lemon Butter Salmon (Variation 123)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "41 min",
+    "calories": 578,
+    "protein": 49,
+    "fat": 35,
+    "carbs": 92,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r124",
+    "title": "Chicken Tikka Masala (Variation 124)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "57 min",
+    "calories": 694,
+    "protein": 25,
+    "fat": 7,
+    "carbs": 20,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r125",
+    "title": "Mexican Rice Bowl (Variation 125)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "33 min",
+    "calories": 461,
+    "protein": 43,
+    "fat": 12,
+    "carbs": 85,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r126",
+    "title": "Beef Tacos (Variation 126)",
+    "description": "A wonderful Japanese dish perfect for snack.",
+    "prepTime": "40 min",
+    "calories": 637,
+    "protein": 20,
+    "fat": 34,
+    "carbs": 62,
+    "cuisine": "Japanese",
+    "category": "Snack",
+    "tags": [
+      "japanese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r127",
+    "title": "Pad Thai (Variation 127)",
+    "description": "A wonderful American dish perfect for snack.",
+    "prepTime": "26 min",
+    "calories": 534,
+    "protein": 29,
+    "fat": 31,
+    "carbs": 24,
+    "cuisine": "American",
+    "category": "Snack",
+    "tags": [
+      "american",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r128",
+    "title": "Lemon Butter Salmon (Variation 128)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "54 min",
+    "calories": 288,
+    "protein": 5,
+    "fat": 8,
+    "carbs": 26,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r129",
+    "title": "Mexican Rice Bowl (Variation 129)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "23 min",
+    "calories": 667,
+    "protein": 40,
+    "fat": 37,
+    "carbs": 12,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r130",
+    "title": "Lemon Butter Salmon (Variation 130)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "29 min",
+    "calories": 490,
+    "protein": 27,
+    "fat": 15,
+    "carbs": 67,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r131",
+    "title": "Pad Thai (Variation 131)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "19 min",
+    "calories": 420,
+    "protein": 25,
+    "fat": 5,
+    "carbs": 69,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r132",
+    "title": "Garlic Butter Chicken (Variation 132)",
+    "description": "A wonderful Japanese dish perfect for dinner.",
+    "prepTime": "11 min",
+    "calories": 776,
+    "protein": 14,
+    "fat": 19,
+    "carbs": 53,
+    "cuisine": "Japanese",
+    "category": "Dinner",
+    "tags": [
+      "japanese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r133",
+    "title": "Pad Thai (Variation 133)",
+    "description": "A wonderful Indian dish perfect for lunch.",
+    "prepTime": "21 min",
+    "calories": 552,
+    "protein": 22,
+    "fat": 5,
+    "carbs": 40,
+    "cuisine": "Indian",
+    "category": "Lunch",
+    "tags": [
+      "indian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r134",
+    "title": "Lemon Butter Salmon (Variation 134)",
+    "description": "A wonderful Mexican dish perfect for snack.",
+    "prepTime": "31 min",
+    "calories": 433,
+    "protein": 49,
+    "fat": 19,
+    "carbs": 47,
+    "cuisine": "Mexican",
+    "category": "Snack",
+    "tags": [
+      "mexican",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r135",
+    "title": "Beef Tacos (Variation 135)",
+    "description": "A wonderful American dish perfect for lunch.",
+    "prepTime": "37 min",
+    "calories": 638,
+    "protein": 42,
+    "fat": 10,
+    "carbs": 26,
+    "cuisine": "American",
+    "category": "Lunch",
+    "tags": [
+      "american",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r136",
+    "title": "Mushroom Risotto (Variation 136)",
+    "description": "A wonderful American dish perfect for dinner.",
+    "prepTime": "35 min",
+    "calories": 737,
+    "protein": 34,
+    "fat": 7,
+    "carbs": 98,
+    "cuisine": "American",
+    "category": "Dinner",
+    "tags": [
+      "american",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r137",
+    "title": "Cheesy Spinach Omelette (Variation 137)",
+    "description": "A wonderful Italian dish perfect for lunch.",
+    "prepTime": "40 min",
+    "calories": 384,
+    "protein": 35,
+    "fat": 37,
+    "carbs": 70,
+    "cuisine": "Italian",
+    "category": "Lunch",
+    "tags": [
+      "italian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r138",
+    "title": "Mexican Rice Bowl (Variation 138)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "13 min",
+    "calories": 770,
+    "protein": 32,
+    "fat": 17,
+    "carbs": 38,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r139",
+    "title": "Cheesy Spinach Omelette (Variation 139)",
+    "description": "A wonderful Japanese dish perfect for lunch.",
+    "prepTime": "36 min",
+    "calories": 277,
+    "protein": 27,
+    "fat": 33,
+    "carbs": 23,
+    "cuisine": "Japanese",
+    "category": "Lunch",
+    "tags": [
+      "japanese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r140",
+    "title": "Pad Thai (Variation 140)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "28 min",
+    "calories": 620,
+    "protein": 21,
+    "fat": 39,
+    "carbs": 69,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r141",
+    "title": "Mexican Rice Bowl (Variation 141)",
+    "description": "A wonderful American dish perfect for dessert.",
+    "prepTime": "47 min",
+    "calories": 624,
+    "protein": 24,
+    "fat": 19,
+    "carbs": 55,
+    "cuisine": "American",
+    "category": "Dessert",
+    "tags": [
+      "american",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r142",
+    "title": "Beef Tacos (Variation 142)",
+    "description": "A wonderful French dish perfect for lunch.",
+    "prepTime": "48 min",
+    "calories": 581,
+    "protein": 9,
+    "fat": 5,
+    "carbs": 71,
+    "cuisine": "French",
+    "category": "Lunch",
+    "tags": [
+      "french",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r143",
+    "title": "Lemon Butter Salmon (Variation 143)",
+    "description": "A wonderful Thai dish perfect for snack.",
+    "prepTime": "46 min",
+    "calories": 736,
+    "protein": 42,
+    "fat": 22,
+    "carbs": 41,
+    "cuisine": "Thai",
+    "category": "Snack",
+    "tags": [
+      "thai",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r144",
+    "title": "Chicken Tikka Masala (Variation 144)",
+    "description": "A wonderful French dish perfect for lunch.",
+    "prepTime": "11 min",
+    "calories": 769,
+    "protein": 22,
+    "fat": 5,
+    "carbs": 20,
+    "cuisine": "French",
+    "category": "Lunch",
+    "tags": [
+      "french",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r145",
+    "title": "Lemon Butter Salmon (Variation 145)",
+    "description": "A wonderful French dish perfect for breakfast.",
+    "prepTime": "48 min",
+    "calories": 375,
+    "protein": 21,
+    "fat": 5,
+    "carbs": 54,
+    "cuisine": "French",
+    "category": "Breakfast",
+    "tags": [
+      "french",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r146",
+    "title": "Cheesy Spinach Omelette (Variation 146)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "19 min",
+    "calories": 634,
+    "protein": 41,
+    "fat": 11,
+    "carbs": 65,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r147",
+    "title": "Classic Tomato Pasta (Variation 147)",
+    "description": "A wonderful French dish perfect for dinner.",
+    "prepTime": "57 min",
+    "calories": 511,
+    "protein": 7,
+    "fat": 32,
+    "carbs": 45,
+    "cuisine": "French",
+    "category": "Dinner",
+    "tags": [
+      "french",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r148",
+    "title": "Mexican Rice Bowl (Variation 148)",
+    "description": "A wonderful Italian dish perfect for dinner.",
+    "prepTime": "34 min",
+    "calories": 560,
+    "protein": 42,
+    "fat": 26,
+    "carbs": 53,
+    "cuisine": "Italian",
+    "category": "Dinner",
+    "tags": [
+      "italian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r149",
+    "title": "Classic Tomato Pasta (Variation 149)",
+    "description": "A wonderful Japanese dish perfect for dessert.",
+    "prepTime": "47 min",
+    "calories": 558,
+    "protein": 34,
+    "fat": 36,
+    "carbs": 91,
+    "cuisine": "Japanese",
+    "category": "Dessert",
+    "tags": [
+      "japanese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r150",
+    "title": "Mushroom Risotto (Variation 150)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "32 min",
+    "calories": 344,
+    "protein": 47,
+    "fat": 36,
+    "carbs": 17,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r151",
+    "title": "Chicken Tikka Masala (Variation 151)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "18 min",
+    "calories": 244,
+    "protein": 15,
+    "fat": 15,
+    "carbs": 59,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r152",
+    "title": "Garlic Butter Chicken (Variation 152)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "59 min",
+    "calories": 793,
+    "protein": 27,
+    "fat": 29,
+    "carbs": 73,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r153",
+    "title": "Mushroom Risotto (Variation 153)",
+    "description": "A wonderful Japanese dish perfect for dessert.",
+    "prepTime": "43 min",
+    "calories": 574,
+    "protein": 7,
+    "fat": 18,
+    "carbs": 32,
+    "cuisine": "Japanese",
+    "category": "Dessert",
+    "tags": [
+      "japanese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r154",
+    "title": "Lemon Butter Salmon (Variation 154)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "55 min",
+    "calories": 565,
+    "protein": 11,
+    "fat": 29,
+    "carbs": 20,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r155",
+    "title": "Chicken Tikka Masala (Variation 155)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "34 min",
+    "calories": 787,
+    "protein": 23,
+    "fat": 28,
+    "carbs": 53,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r156",
+    "title": "Beef Tacos (Variation 156)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "26 min",
+    "calories": 335,
+    "protein": 18,
+    "fat": 30,
+    "carbs": 90,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r157",
+    "title": "Mushroom Risotto (Variation 157)",
+    "description": "A wonderful Italian dish perfect for lunch.",
+    "prepTime": "38 min",
+    "calories": 596,
+    "protein": 47,
+    "fat": 7,
+    "carbs": 13,
+    "cuisine": "Italian",
+    "category": "Lunch",
+    "tags": [
+      "italian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r158",
+    "title": "Classic Tomato Pasta (Variation 158)",
+    "description": "A wonderful French dish perfect for dinner.",
+    "prepTime": "52 min",
+    "calories": 593,
+    "protein": 37,
+    "fat": 16,
+    "carbs": 54,
+    "cuisine": "French",
+    "category": "Dinner",
+    "tags": [
+      "french",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r159",
+    "title": "Chicken Tikka Masala (Variation 159)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "25 min",
+    "calories": 539,
+    "protein": 16,
+    "fat": 38,
+    "carbs": 27,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r160",
+    "title": "Mushroom Risotto (Variation 160)",
+    "description": "A wonderful Mediterranean dish perfect for dessert.",
+    "prepTime": "33 min",
+    "calories": 242,
+    "protein": 14,
+    "fat": 37,
+    "carbs": 55,
+    "cuisine": "Mediterranean",
+    "category": "Dessert",
+    "tags": [
+      "mediterranean",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r161",
+    "title": "Chicken Tikka Masala (Variation 161)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "23 min",
+    "calories": 238,
+    "protein": 21,
+    "fat": 10,
+    "carbs": 96,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r162",
+    "title": "Garlic Butter Chicken (Variation 162)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "48 min",
+    "calories": 214,
+    "protein": 29,
+    "fat": 9,
+    "carbs": 35,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r163",
+    "title": "Mushroom Risotto (Variation 163)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "36 min",
+    "calories": 574,
+    "protein": 18,
+    "fat": 37,
+    "carbs": 43,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r164",
+    "title": "Chicken Tikka Masala (Variation 164)",
+    "description": "A wonderful Mediterranean dish perfect for dessert.",
+    "prepTime": "21 min",
+    "calories": 353,
+    "protein": 28,
+    "fat": 17,
+    "carbs": 94,
+    "cuisine": "Mediterranean",
+    "category": "Dessert",
+    "tags": [
+      "mediterranean",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r165",
+    "title": "Lemon Butter Salmon (Variation 165)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "47 min",
+    "calories": 670,
+    "protein": 37,
+    "fat": 16,
+    "carbs": 85,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r166",
+    "title": "Cheesy Spinach Omelette (Variation 166)",
+    "description": "A wonderful Italian dish perfect for dessert.",
+    "prepTime": "19 min",
+    "calories": 499,
+    "protein": 16,
+    "fat": 14,
+    "carbs": 17,
+    "cuisine": "Italian",
+    "category": "Dessert",
+    "tags": [
+      "italian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r167",
+    "title": "Classic Tomato Pasta (Variation 167)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "42 min",
+    "calories": 692,
+    "protein": 30,
+    "fat": 17,
+    "carbs": 68,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r168",
+    "title": "Chicken Tikka Masala (Variation 168)",
+    "description": "A wonderful Italian dish perfect for lunch.",
+    "prepTime": "14 min",
+    "calories": 454,
+    "protein": 46,
+    "fat": 26,
+    "carbs": 32,
+    "cuisine": "Italian",
+    "category": "Lunch",
+    "tags": [
+      "italian",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r169",
+    "title": "Lemon Butter Salmon (Variation 169)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "59 min",
+    "calories": 331,
+    "protein": 25,
+    "fat": 12,
+    "carbs": 53,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r170",
+    "title": "Beef Tacos (Variation 170)",
+    "description": "A wonderful Mexican dish perfect for dinner.",
+    "prepTime": "36 min",
+    "calories": 503,
+    "protein": 43,
+    "fat": 16,
+    "carbs": 38,
+    "cuisine": "Mexican",
+    "category": "Dinner",
+    "tags": [
+      "mexican",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r171",
+    "title": "Lemon Butter Salmon (Variation 171)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "54 min",
+    "calories": 662,
+    "protein": 19,
+    "fat": 36,
+    "carbs": 55,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r172",
+    "title": "Spicy Tofu Stir Fry (Variation 172)",
+    "description": "A wonderful Italian dish perfect for dessert.",
+    "prepTime": "57 min",
+    "calories": 275,
+    "protein": 35,
+    "fat": 13,
+    "carbs": 92,
+    "cuisine": "Italian",
+    "category": "Dessert",
+    "tags": [
+      "italian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r173",
+    "title": "Garlic Butter Chicken (Variation 173)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "46 min",
+    "calories": 386,
+    "protein": 29,
+    "fat": 39,
+    "carbs": 41,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r174",
+    "title": "Garlic Butter Chicken (Variation 174)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "50 min",
+    "calories": 767,
+    "protein": 35,
+    "fat": 10,
+    "carbs": 78,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r175",
+    "title": "Pad Thai (Variation 175)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "31 min",
+    "calories": 682,
+    "protein": 18,
+    "fat": 15,
+    "carbs": 74,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r176",
+    "title": "Beef Tacos (Variation 176)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "42 min",
+    "calories": 637,
+    "protein": 8,
+    "fat": 7,
+    "carbs": 26,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r177",
+    "title": "Classic Tomato Pasta (Variation 177)",
+    "description": "A wonderful Indian dish perfect for breakfast.",
+    "prepTime": "20 min",
+    "calories": 693,
+    "protein": 15,
+    "fat": 39,
+    "carbs": 86,
+    "cuisine": "Indian",
+    "category": "Breakfast",
+    "tags": [
+      "indian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r178",
+    "title": "Classic Tomato Pasta (Variation 178)",
+    "description": "A wonderful Mediterranean dish perfect for snack.",
+    "prepTime": "16 min",
+    "calories": 770,
+    "protein": 37,
+    "fat": 28,
+    "carbs": 55,
+    "cuisine": "Mediterranean",
+    "category": "Snack",
+    "tags": [
+      "mediterranean",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r179",
+    "title": "Garlic Butter Chicken (Variation 179)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "55 min",
+    "calories": 783,
+    "protein": 42,
+    "fat": 11,
+    "carbs": 67,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r180",
+    "title": "Mexican Rice Bowl (Variation 180)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "39 min",
+    "calories": 324,
+    "protein": 39,
+    "fat": 15,
+    "carbs": 57,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r181",
+    "title": "Spicy Tofu Stir Fry (Variation 181)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "47 min",
+    "calories": 309,
+    "protein": 15,
+    "fat": 33,
+    "carbs": 61,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r182",
+    "title": "Beef Tacos (Variation 182)",
+    "description": "A wonderful Indian dish perfect for snack.",
+    "prepTime": "57 min",
+    "calories": 511,
+    "protein": 11,
+    "fat": 20,
+    "carbs": 50,
+    "cuisine": "Indian",
+    "category": "Snack",
+    "tags": [
+      "indian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r183",
+    "title": "Garlic Butter Chicken (Variation 183)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "23 min",
+    "calories": 376,
+    "protein": 26,
+    "fat": 7,
+    "carbs": 18,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r184",
+    "title": "Lemon Butter Salmon (Variation 184)",
+    "description": "A wonderful Japanese dish perfect for snack.",
+    "prepTime": "16 min",
+    "calories": 799,
+    "protein": 45,
+    "fat": 30,
+    "carbs": 87,
+    "cuisine": "Japanese",
+    "category": "Snack",
+    "tags": [
+      "japanese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r185",
+    "title": "Mushroom Risotto (Variation 185)",
+    "description": "A wonderful French dish perfect for breakfast.",
+    "prepTime": "43 min",
+    "calories": 393,
+    "protein": 23,
+    "fat": 36,
+    "carbs": 65,
+    "cuisine": "French",
+    "category": "Breakfast",
+    "tags": [
+      "french",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r186",
+    "title": "Chicken Tikka Masala (Variation 186)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "52 min",
+    "calories": 493,
+    "protein": 31,
+    "fat": 25,
+    "carbs": 17,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r187",
+    "title": "Spicy Tofu Stir Fry (Variation 187)",
+    "description": "A wonderful Thai dish perfect for dessert.",
+    "prepTime": "59 min",
+    "calories": 337,
+    "protein": 47,
+    "fat": 19,
+    "carbs": 27,
+    "cuisine": "Thai",
+    "category": "Dessert",
+    "tags": [
+      "thai",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r188",
+    "title": "Mushroom Risotto (Variation 188)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "51 min",
+    "calories": 774,
+    "protein": 47,
+    "fat": 36,
+    "carbs": 37,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r189",
+    "title": "Spicy Tofu Stir Fry (Variation 189)",
+    "description": "A wonderful French dish perfect for dinner.",
+    "prepTime": "29 min",
+    "calories": 296,
+    "protein": 6,
+    "fat": 28,
+    "carbs": 35,
+    "cuisine": "French",
+    "category": "Dinner",
+    "tags": [
+      "french",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r190",
+    "title": "Beef Tacos (Variation 190)",
+    "description": "A wonderful French dish perfect for dessert.",
+    "prepTime": "10 min",
+    "calories": 661,
+    "protein": 30,
+    "fat": 22,
+    "carbs": 62,
+    "cuisine": "French",
+    "category": "Dessert",
+    "tags": [
+      "french",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r191",
+    "title": "Garlic Butter Chicken (Variation 191)",
+    "description": "A wonderful French dish perfect for dessert.",
+    "prepTime": "51 min",
+    "calories": 716,
+    "protein": 22,
+    "fat": 30,
+    "carbs": 84,
+    "cuisine": "French",
+    "category": "Dessert",
+    "tags": [
+      "french",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r192",
+    "title": "Chicken Tikka Masala (Variation 192)",
+    "description": "A wonderful Mexican dish perfect for lunch.",
+    "prepTime": "23 min",
+    "calories": 577,
+    "protein": 12,
+    "fat": 15,
+    "carbs": 59,
+    "cuisine": "Mexican",
+    "category": "Lunch",
+    "tags": [
+      "mexican",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r193",
+    "title": "Mexican Rice Bowl (Variation 193)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "53 min",
+    "calories": 368,
+    "protein": 35,
+    "fat": 17,
+    "carbs": 11,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r194",
+    "title": "Cheesy Spinach Omelette (Variation 194)",
+    "description": "A wonderful French dish perfect for breakfast.",
+    "prepTime": "14 min",
+    "calories": 395,
+    "protein": 46,
+    "fat": 23,
+    "carbs": 73,
+    "cuisine": "French",
+    "category": "Breakfast",
+    "tags": [
+      "french",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r195",
+    "title": "Spicy Tofu Stir Fry (Variation 195)",
+    "description": "A wonderful Mexican dish perfect for lunch.",
+    "prepTime": "10 min",
+    "calories": 370,
+    "protein": 8,
+    "fat": 12,
+    "carbs": 66,
+    "cuisine": "Mexican",
+    "category": "Lunch",
+    "tags": [
+      "mexican",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r196",
+    "title": "Classic Tomato Pasta (Variation 196)",
+    "description": "A wonderful French dish perfect for lunch.",
+    "prepTime": "58 min",
+    "calories": 752,
+    "protein": 7,
+    "fat": 12,
+    "carbs": 87,
+    "cuisine": "French",
+    "category": "Lunch",
+    "tags": [
+      "french",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r197",
+    "title": "Mexican Rice Bowl (Variation 197)",
+    "description": "A wonderful Italian dish perfect for breakfast.",
+    "prepTime": "37 min",
+    "calories": 290,
+    "protein": 29,
+    "fat": 29,
+    "carbs": 52,
+    "cuisine": "Italian",
+    "category": "Breakfast",
+    "tags": [
+      "italian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r198",
+    "title": "Beef Tacos (Variation 198)",
+    "description": "A wonderful Chinese dish perfect for snack.",
+    "prepTime": "33 min",
+    "calories": 242,
+    "protein": 21,
+    "fat": 36,
+    "carbs": 81,
+    "cuisine": "Chinese",
+    "category": "Snack",
+    "tags": [
+      "chinese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r199",
+    "title": "Mushroom Risotto (Variation 199)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "49 min",
+    "calories": 420,
+    "protein": 12,
+    "fat": 27,
+    "carbs": 50,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r200",
+    "title": "Cheesy Spinach Omelette (Variation 200)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "23 min",
+    "calories": 518,
+    "protein": 18,
+    "fat": 28,
+    "carbs": 47,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r201",
+    "title": "Beef Tacos (Variation 201)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "40 min",
+    "calories": 301,
+    "protein": 40,
+    "fat": 22,
+    "carbs": 86,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r202",
+    "title": "Garlic Butter Chicken (Variation 202)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "48 min",
+    "calories": 492,
+    "protein": 44,
+    "fat": 22,
+    "carbs": 43,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r203",
+    "title": "Spicy Tofu Stir Fry (Variation 203)",
+    "description": "A wonderful Italian dish perfect for dinner.",
+    "prepTime": "48 min",
+    "calories": 274,
+    "protein": 22,
+    "fat": 35,
+    "carbs": 55,
+    "cuisine": "Italian",
+    "category": "Dinner",
+    "tags": [
+      "italian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r204",
+    "title": "Lemon Butter Salmon (Variation 204)",
+    "description": "A wonderful Italian dish perfect for breakfast.",
+    "prepTime": "16 min",
+    "calories": 644,
+    "protein": 8,
+    "fat": 7,
+    "carbs": 83,
+    "cuisine": "Italian",
+    "category": "Breakfast",
+    "tags": [
+      "italian",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r205",
+    "title": "Pad Thai (Variation 205)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "37 min",
+    "calories": 396,
+    "protein": 41,
+    "fat": 36,
+    "carbs": 66,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r206",
+    "title": "Mexican Rice Bowl (Variation 206)",
+    "description": "A wonderful Thai dish perfect for dessert.",
+    "prepTime": "15 min",
+    "calories": 356,
+    "protein": 18,
+    "fat": 35,
+    "carbs": 55,
+    "cuisine": "Thai",
+    "category": "Dessert",
+    "tags": [
+      "thai",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r207",
+    "title": "Lemon Butter Salmon (Variation 207)",
+    "description": "A wonderful Japanese dish perfect for snack.",
+    "prepTime": "42 min",
+    "calories": 650,
+    "protein": 29,
+    "fat": 13,
+    "carbs": 65,
+    "cuisine": "Japanese",
+    "category": "Snack",
+    "tags": [
+      "japanese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r208",
+    "title": "Mexican Rice Bowl (Variation 208)",
+    "description": "A wonderful French dish perfect for dessert.",
+    "prepTime": "10 min",
+    "calories": 552,
+    "protein": 30,
+    "fat": 15,
+    "carbs": 14,
+    "cuisine": "French",
+    "category": "Dessert",
+    "tags": [
+      "french",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r209",
+    "title": "Classic Tomato Pasta (Variation 209)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "58 min",
+    "calories": 798,
+    "protein": 36,
+    "fat": 16,
+    "carbs": 63,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "r210",
+    "title": "Chicken Tikka Masala (Variation 210)",
+    "description": "A wonderful Mediterranean dish perfect for dinner.",
+    "prepTime": "49 min",
+    "calories": 322,
+    "protein": 16,
+    "fat": 8,
+    "carbs": 47,
+    "cuisine": "Mediterranean",
+    "category": "Dinner",
+    "tags": [
+      "mediterranean",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r211",
+    "title": "Cheesy Spinach Omelette (Variation 211)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "54 min",
+    "calories": 510,
+    "protein": 43,
+    "fat": 14,
+    "carbs": 74,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r212",
+    "title": "Garlic Butter Chicken (Variation 212)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "27 min",
+    "calories": 236,
+    "protein": 32,
+    "fat": 23,
+    "carbs": 86,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r213",
+    "title": "Garlic Butter Chicken (Variation 213)",
+    "description": "A wonderful Thai dish perfect for dinner.",
+    "prepTime": "20 min",
+    "calories": 271,
+    "protein": 12,
+    "fat": 14,
+    "carbs": 90,
+    "cuisine": "Thai",
+    "category": "Dinner",
+    "tags": [
+      "thai",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r214",
+    "title": "Chicken Tikka Masala (Variation 214)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "20 min",
+    "calories": 246,
+    "protein": 5,
+    "fat": 20,
+    "carbs": 62,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r215",
+    "title": "Classic Tomato Pasta (Variation 215)",
+    "description": "A wonderful Japanese dish perfect for dinner.",
+    "prepTime": "32 min",
+    "calories": 284,
+    "protein": 11,
+    "fat": 23,
+    "carbs": 96,
+    "cuisine": "Japanese",
+    "category": "Dinner",
+    "tags": [
+      "japanese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r216",
+    "title": "Beef Tacos (Variation 216)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "27 min",
+    "calories": 537,
+    "protein": 13,
+    "fat": 15,
+    "carbs": 66,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r217",
+    "title": "Beef Tacos (Variation 217)",
+    "description": "A wonderful Mediterranean dish perfect for lunch.",
+    "prepTime": "10 min",
+    "calories": 514,
+    "protein": 22,
+    "fat": 17,
+    "carbs": 79,
+    "cuisine": "Mediterranean",
+    "category": "Lunch",
+    "tags": [
+      "mediterranean",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r218",
+    "title": "Spicy Tofu Stir Fry (Variation 218)",
+    "description": "A wonderful Japanese dish perfect for dinner.",
+    "prepTime": "16 min",
+    "calories": 431,
+    "protein": 49,
+    "fat": 24,
+    "carbs": 76,
+    "cuisine": "Japanese",
+    "category": "Dinner",
+    "tags": [
+      "japanese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r219",
+    "title": "Spicy Tofu Stir Fry (Variation 219)",
+    "description": "A wonderful Chinese dish perfect for lunch.",
+    "prepTime": "13 min",
+    "calories": 470,
+    "protein": 36,
+    "fat": 26,
+    "carbs": 99,
+    "cuisine": "Chinese",
+    "category": "Lunch",
+    "tags": [
+      "chinese",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r220",
+    "title": "Beef Tacos (Variation 220)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "13 min",
+    "calories": 783,
+    "protein": 31,
+    "fat": 38,
+    "carbs": 86,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r221",
+    "title": "Classic Tomato Pasta (Variation 221)",
+    "description": "A wonderful French dish perfect for snack.",
+    "prepTime": "52 min",
+    "calories": 413,
+    "protein": 24,
+    "fat": 7,
+    "carbs": 47,
+    "cuisine": "French",
+    "category": "Snack",
+    "tags": [
+      "french",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r222",
+    "title": "Mushroom Risotto (Variation 222)",
+    "description": "A wonderful Mexican dish perfect for snack.",
+    "prepTime": "52 min",
+    "calories": 589,
+    "protein": 14,
+    "fat": 31,
+    "carbs": 51,
+    "cuisine": "Mexican",
+    "category": "Snack",
+    "tags": [
+      "mexican",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r223",
+    "title": "Spicy Tofu Stir Fry (Variation 223)",
+    "description": "A wonderful Japanese dish perfect for snack.",
+    "prepTime": "35 min",
+    "calories": 608,
+    "protein": 16,
+    "fat": 28,
+    "carbs": 29,
+    "cuisine": "Japanese",
+    "category": "Snack",
+    "tags": [
+      "japanese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "r224",
+    "title": "Beef Tacos (Variation 224)",
+    "description": "A wonderful Mediterranean dish perfect for breakfast.",
+    "prepTime": "48 min",
+    "calories": 796,
+    "protein": 29,
+    "fat": 39,
+    "carbs": 19,
+    "cuisine": "Mediterranean",
+    "category": "Breakfast",
+    "tags": [
+      "mediterranean",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r225",
+    "title": "Mushroom Risotto (Variation 225)",
+    "description": "A wonderful Mexican dish perfect for snack.",
+    "prepTime": "30 min",
+    "calories": 526,
+    "protein": 46,
+    "fat": 22,
+    "carbs": 73,
+    "cuisine": "Mexican",
+    "category": "Snack",
+    "tags": [
+      "mexican",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r226",
+    "title": "Chicken Tikka Masala (Variation 226)",
+    "description": "A wonderful Chinese dish perfect for snack.",
+    "prepTime": "53 min",
+    "calories": 229,
+    "protein": 31,
+    "fat": 30,
+    "carbs": 24,
+    "cuisine": "Chinese",
+    "category": "Snack",
+    "tags": [
+      "chinese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r227",
+    "title": "Chicken Tikka Masala (Variation 227)",
+    "description": "A wonderful Japanese dish perfect for breakfast.",
+    "prepTime": "19 min",
+    "calories": 395,
+    "protein": 6,
+    "fat": 37,
+    "carbs": 84,
+    "cuisine": "Japanese",
+    "category": "Breakfast",
+    "tags": [
+      "japanese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r228",
+    "title": "Lemon Butter Salmon (Variation 228)",
+    "description": "A wonderful Mediterranean dish perfect for breakfast.",
+    "prepTime": "27 min",
+    "calories": 454,
+    "protein": 31,
+    "fat": 23,
+    "carbs": 28,
+    "cuisine": "Mediterranean",
+    "category": "Breakfast",
+    "tags": [
+      "mediterranean",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r229",
+    "title": "Cheesy Spinach Omelette (Variation 229)",
+    "description": "A wonderful Indian dish perfect for dinner.",
+    "prepTime": "37 min",
+    "calories": 555,
+    "protein": 39,
+    "fat": 29,
+    "carbs": 46,
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "tags": [
+      "indian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "r230",
+    "title": "Beef Tacos (Variation 230)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "46 min",
+    "calories": 789,
+    "protein": 30,
+    "fat": 20,
+    "carbs": 24,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r231",
+    "title": "Chicken Tikka Masala (Variation 231)",
+    "description": "A wonderful Italian dish perfect for snack.",
+    "prepTime": "44 min",
+    "calories": 583,
+    "protein": 35,
+    "fat": 34,
+    "carbs": 48,
+    "cuisine": "Italian",
+    "category": "Snack",
+    "tags": [
+      "italian",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r232",
+    "title": "Mushroom Risotto (Variation 232)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "43 min",
+    "calories": 458,
+    "protein": 49,
+    "fat": 37,
+    "carbs": 15,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "r233",
+    "title": "Spicy Tofu Stir Fry (Variation 233)",
+    "description": "A wonderful Chinese dish perfect for snack.",
+    "prepTime": "36 min",
+    "calories": 679,
+    "protein": 24,
+    "fat": 14,
+    "carbs": 58,
+    "cuisine": "Chinese",
+    "category": "Snack",
+    "tags": [
+      "chinese",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "r234",
+    "title": "Mexican Rice Bowl (Variation 234)",
+    "description": "A wonderful Mediterranean dish perfect for breakfast.",
+    "prepTime": "33 min",
+    "calories": 661,
+    "protein": 41,
+    "fat": 27,
+    "carbs": 68,
+    "cuisine": "Mediterranean",
+    "category": "Breakfast",
+    "tags": [
+      "mediterranean",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r235",
+    "title": "Spicy Tofu Stir Fry (Variation 235)",
+    "description": "A wonderful Italian dish perfect for dinner.",
+    "prepTime": "13 min",
+    "calories": 387,
+    "protein": 48,
+    "fat": 37,
+    "carbs": 13,
+    "cuisine": "Italian",
+    "category": "Dinner",
+    "tags": [
+      "italian",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": "r236",
+    "title": "Chicken Tikka Masala (Variation 236)",
+    "description": "A wonderful Chinese dish perfect for breakfast.",
+    "prepTime": "15 min",
+    "calories": 383,
+    "protein": 30,
+    "fat": 35,
+    "carbs": 41,
+    "cuisine": "Chinese",
+    "category": "Breakfast",
+    "tags": [
+      "chinese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r237",
+    "title": "Chicken Tikka Masala (Variation 237)",
+    "description": "A wonderful Indian dish perfect for dessert.",
+    "prepTime": "30 min",
+    "calories": 208,
+    "protein": 47,
+    "fat": 38,
+    "carbs": 99,
+    "cuisine": "Indian",
+    "category": "Dessert",
+    "tags": [
+      "indian",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r238",
+    "title": "Mexican Rice Bowl (Variation 238)",
+    "description": "A wonderful Japanese dish perfect for breakfast.",
+    "prepTime": "14 min",
+    "calories": 535,
+    "protein": 8,
+    "fat": 32,
+    "carbs": 45,
+    "cuisine": "Japanese",
+    "category": "Breakfast",
+    "tags": [
+      "japanese",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r239",
+    "title": "Pad Thai (Variation 239)",
+    "description": "A wonderful American dish perfect for breakfast.",
+    "prepTime": "51 min",
+    "calories": 406,
+    "protein": 25,
+    "fat": 35,
+    "carbs": 92,
+    "cuisine": "American",
+    "category": "Breakfast",
+    "tags": [
+      "american",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "r240",
+    "title": "Garlic Butter Chicken (Variation 240)",
+    "description": "A wonderful American dish perfect for dinner.",
+    "prepTime": "39 min",
+    "calories": 383,
+    "protein": 28,
+    "fat": 34,
+    "carbs": 24,
+    "cuisine": "American",
+    "category": "Dinner",
+    "tags": [
+      "american",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "r241",
+    "title": "Chicken Tikka Masala (Variation 241)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "48 min",
+    "calories": 667,
+    "protein": 18,
+    "fat": 25,
+    "carbs": 13,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 cups pasta",
+      "1 cup tomato sauce",
+      "1/2 cup parmesan cheese",
+      "1 tbsp basil"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "r242",
+    "title": "Spicy Tofu Stir Fry (Variation 242)",
+    "description": "A wonderful Mexican dish perfect for dessert.",
+    "prepTime": "45 min",
+    "calories": 707,
+    "protein": 26,
+    "fat": 22,
+    "carbs": 21,
+    "cuisine": "Mexican",
+    "category": "Dessert",
+    "tags": [
+      "mexican",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4
+  },
+  {
+    "id": "r243",
+    "title": "Mexican Rice Bowl (Variation 243)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "29 min",
+    "calories": 376,
+    "protein": 32,
+    "fat": 31,
+    "carbs": 18,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "r244",
+    "title": "Lemon Butter Salmon (Variation 244)",
+    "description": "A wonderful Thai dish perfect for breakfast.",
+    "prepTime": "11 min",
+    "calories": 203,
+    "protein": 18,
+    "fat": 18,
+    "carbs": 68,
+    "cuisine": "Thai",
+    "category": "Breakfast",
+    "tags": [
+      "thai",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "r245",
+    "title": "Mexican Rice Bowl (Variation 245)",
+    "description": "A wonderful American dish perfect for snack.",
+    "prepTime": "48 min",
+    "calories": 289,
+    "protein": 44,
+    "fat": 10,
+    "carbs": 78,
+    "cuisine": "American",
+    "category": "Snack",
+    "tags": [
+      "american",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 lb chicken breast",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp pepper",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r246",
+    "title": "Mushroom Risotto (Variation 246)",
+    "description": "A wonderful Chinese dish perfect for dinner.",
+    "prepTime": "27 min",
+    "calories": 360,
+    "protein": 42,
+    "fat": 19,
+    "carbs": 84,
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "tags": [
+      "chinese",
+      "dinner"
+    ],
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 5
+  },
+  {
+    "id": "r247",
+    "title": "Spicy Tofu Stir Fry (Variation 247)",
+    "description": "A wonderful American dish perfect for snack.",
+    "prepTime": "10 min",
+    "calories": 464,
+    "protein": 37,
+    "fat": 23,
+    "carbs": 59,
+    "cuisine": "American",
+    "category": "Snack",
+    "tags": [
+      "american",
+      "snack"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup black beans",
+      "1/4 cup salsa",
+      "1/4 cup corn",
+      "Cilantro"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "r248",
+    "title": "Spicy Tofu Stir Fry (Variation 248)",
+    "description": "A wonderful Mexican dish perfect for breakfast.",
+    "prepTime": "10 min",
+    "calories": 286,
+    "protein": 31,
+    "fat": 7,
+    "carbs": 62,
+    "cuisine": "Mexican",
+    "category": "Breakfast",
+    "tags": [
+      "mexican",
+      "breakfast"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "r249",
+    "title": "Spicy Tofu Stir Fry (Variation 249)",
+    "description": "A wonderful American dish perfect for lunch.",
+    "prepTime": "57 min",
+    "calories": 733,
+    "protein": 21,
+    "fat": 23,
+    "carbs": 29,
+    "cuisine": "American",
+    "category": "Lunch",
+    "tags": [
+      "american",
+      "lunch"
+    ],
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/2 cup cheddar cheese",
+      "1/4 cup spinach"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "r250",
+    "title": "Classic Tomato Pasta (Variation 250)",
+    "description": "A wonderful Chinese dish perfect for dessert.",
+    "prepTime": "49 min",
+    "calories": 331,
+    "protein": 37,
+    "fat": 28,
+    "carbs": 13,
+    "cuisine": "Chinese",
+    "category": "Dessert",
+    "tags": [
+      "chinese",
+      "dessert"
+    ],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp butter",
+      "Asparagus spears"
+    ],
+    "directions": [
+      "Prepare all ingredients.",
+      "Cook over medium heat until done.",
+      "Serve immediately and enjoy."
+    ],
+    "rating": 4.9
+  }
+]
