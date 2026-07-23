@@ -1,4 +1,18 @@
-# Sous-Chef AI: Data-Driven Culinary Architecture
+<div align="center">
+  <h1>🍳 Sous-Chef AI</h1>
+  <p><strong>Data-Driven Culinary Architecture powered by Gemini RAG</strong></p>
+
+  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+  [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+  [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+  
+  <br />
+</div>
+
+![Sous-Chef AI Dashboard](./public/images/screenshot_1.png)
+
+<br/>
 
 Sous-Chef AI is an intelligent, modern web application that combines the power of Generative AI (via Google Gemini) with Retrieval-Augmented Generation (RAG) and factual nutritional databases. It seamlessly blends a highly responsive Vite/React frontend with a high-performance Python/FastAPI backend powered by modern ML pipelines.
 
@@ -108,6 +122,13 @@ Here is exactly how the entire system works from end-to-end when a user generate
 
 ### Phase 3: The Frontend User Experience
 *Goal: Give the user a beautiful, interactive interface.*
+
+<div align="center">
+</div>
+
+![Contextual Recipe Assistant](./public/images/screenshot_2.png)
+
+<br/>
 
 1. **State Management:** While waiting for the API, the React app displays animated typing indicators and loading states.
 2. **Rendering:** Once the JSON is received, it populates the main UI. 
