@@ -1,27 +1,19 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { UserProvider } from './context/UserContext';
 import { Navigation } from './components/Navigation';
-import { Sidebar } from './components/Sidebar';
 import { Footer } from './components/Footer';
-import { Fab } from './components/Fab';
 import { IntroSplash } from './components/IntroSplash';
 import { Home } from './pages/Home';
-import { RecipeLibrary } from './pages/RecipeLibrary';
-import { InnovationLab } from './pages/InnovationLab';
-import { KitchenDashboard } from './pages/KitchenDashboard';
 import { CookWithAI } from './pages/CookWithAI';
 import { GenerateRecipe } from './pages/GenerateRecipe';
+import { RecipeBook } from './pages/RecipeBook';
 import { Profile } from './pages/Profile';
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [showIntro, setShowIntro] = useState(() => {
     return !sessionStorage.getItem('intro_seen');
   });
-
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
 
   const handleIntroComplete = useCallback(() => {
     sessionStorage.setItem('intro_seen', 'true');
@@ -33,10 +25,12 @@ function App() {
     const revealClasses = [
       'reveal-up', 'reveal-left', 'reveal-right',
       'reveal-scale', 'reveal-rotate', 'stagger-children',
-      'fade-in-section'
+      'fade-in-section',
     ];
 
-    const selector = revealClasses.map(c => `.${c}:not(.revealed):not(.visible)`).join(', ');
+    const selector = revealClasses
+      .map((c) => `.${c}:not(.revealed):not(.visible)`)
+      .join(', ');
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -59,7 +53,9 @@ function App() {
       try {
         const elements = document.querySelectorAll(selector);
         elements.forEach((el) => observer.observe(el));
-      } catch { /* ignore if selector is empty */ }
+      } catch {
+        /* ignore if selector is empty */
+      }
     };
 
     observeAll();
@@ -67,7 +63,10 @@ function App() {
     const mutationObserver = new MutationObserver(() => {
       requestAnimationFrame(observeAll);
     });
-    mutationObserver.observe(document.body, { childList: true, subtree: true });
+    mutationObserver.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
 
     return () => {
       observer.disconnect();
@@ -76,35 +75,29 @@ function App() {
   }, [showIntro]);
 
   return (
-    <>
+    <UserProvider>
       {showIntro && <IntroSplash onComplete={handleIntroComplete} />}
-      <div className={`bg-surface text-on-surface font-body-md text-body-md overflow-x-hidden relative min-h-screen ${showIntro ? 'opacity-0' : 'opacity-100'}`}
-           style={{ transition: 'opacity 0.5s ease 0.3s' }}>
+      <div
+        className={`bg-surface text-on-surface font-body-md text-body-md overflow-x-hidden relative min-h-screen ${
+          showIntro ? 'opacity-0' : 'opacity-100'
+        }`}
+        style={{ transition: 'opacity 0.5s ease 0.3s' }}
+      >
         <Navigation />
 
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/chat" element={<CookWithAI />} />
             <Route path="/generate" element={<GenerateRecipe />} />
-            <Route path="/library" element={<RecipeLibrary />} />
-            <Route path="/lab" element={<InnovationLab />} />
-            <Route path="/kitchen" element={<KitchenDashboard />} />
-            <Route path="/cook-with-ai" element={<CookWithAI />} />
+            <Route path="/recipe-book" element={<RecipeBook />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </main>
 
-        {/* Sidebar Backdrop */}
-        <div
-          className={`sidebar-backdrop ${isSidebarOpen ? 'active' : ''}`}
-          onClick={() => setIsSidebarOpen(false)}
-        />
-
-        <Sidebar isOpen={isSidebarOpen} onClose={toggleSidebar} />
         <Footer />
-        <Fab toggleSidebar={toggleSidebar} isOpen={isSidebarOpen} />
       </div>
-    </>
+    </UserProvider>
   );
 }
 

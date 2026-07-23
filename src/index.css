@@ -312,12 +312,21 @@
   transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
               transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.stagger-children.revealed > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
-.stagger-children.revealed > *:nth-child(2) { transition-delay: 80ms; opacity: 1; transform: translateY(0); }
-.stagger-children.revealed > *:nth-child(3) { transition-delay: 160ms; opacity: 1; transform: translateY(0); }
-.stagger-children.revealed > *:nth-child(4) { transition-delay: 240ms; opacity: 1; transform: translateY(0); }
-.stagger-children.revealed > *:nth-child(5) { transition-delay: 320ms; opacity: 1; transform: translateY(0); }
-.stagger-children.revealed > *:nth-child(6) { transition-delay: 400ms; opacity: 1; transform: translateY(0); }
+/* Default reveal for ALL children when staggered container is revealed */
+.stagger-children.revealed > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add staggered transition delays for up to 36 children using a general approach or fallback */
+/* For a small list, we manually stagger. Beyond 6, we just let them appear, or we can add up to 24 */
+.stagger-children.revealed > *:nth-child(1) { transition-delay: 0ms; }
+.stagger-children.revealed > *:nth-child(2) { transition-delay: 40ms; }
+.stagger-children.revealed > *:nth-child(3) { transition-delay: 80ms; }
+.stagger-children.revealed > *:nth-child(4) { transition-delay: 120ms; }
+.stagger-children.revealed > *:nth-child(5) { transition-delay: 160ms; }
+.stagger-children.revealed > *:nth-child(6) { transition-delay: 200ms; }
+.stagger-children.revealed > *:nth-child(n+7) { transition-delay: 240ms; }
 
 /* -- Pulse border (live state) -- */
 @keyframes pulse-border {
