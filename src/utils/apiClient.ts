@@ -3,7 +3,6 @@
 // Handles User/Session management, Recipe Draft Undo/Redo Timeline,
 // Allergen Scanning/Swapping, Contradiction Validation, and Validity Scoring.
 // ============================================================
-import { mockRecipes } from '../data/mockData';
 
 export interface BackendUser {
   user_id: string;

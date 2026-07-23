@@ -20,7 +20,15 @@ app.add_middleware(
 MODEL = None
 TOKENIZER = None
 NUTRITION_DATA = {}
-RECIPES_DATA = []
+
+# Initialize Supabase client
+from supabase import create_client, Client
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+
+supabase: Client | None = None
+if SUPABASE_URL and SUPABASE_KEY:
+    supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 class RecipeRequest(BaseModel):
     ingredients: list[str]
@@ -40,19 +48,11 @@ async def startup_event():
     except Exception as e:
         print(f"Error loading nutrition data: {e}")
 
-    # Load Recipes Data
-    global RECIPES_DATA
-    try:
-        # Vercel deploys files from api/ folder to the root of the serverless function
-        recipes_path = os.path.join(os.path.dirname(__file__), "data", "recipes.json")
-        if os.path.exists(recipes_path):
-            with open(recipes_path, "r", encoding="utf-8") as f:
-                RECIPES_DATA = json.load(f)
-            print(f"Loaded {len(RECIPES_DATA)} recipes from dataset.")
-        else:
-            print(f"Warning: recipes.json not found at {recipes_path}.")
-    except Exception as e:
-        print(f"Error loading recipes data: {e}")
+    # Load Recipes Data - Now handled by Supabase
+    if supabase:
+        print("Supabase client initialized successfully.")
+    else:
+        print("Warning: SUPABASE_URL or SUPABASE_KEY not set. Recipe endpoints will fail.")
 
     # Load ML Model
     try:
@@ -135,22 +135,25 @@ async def health_check():
 
 @app.get("/api/recipes")
 async def get_recipes(page: int = 1, limit: int = 12, cuisine: str = "All", search: str = ""):
-    filtered = RECIPES_DATA
+    if not supabase:
+        raise HTTPException(status_code=500, detail="Database connection not configured")
+        
+    start = (page - 1) * limit
+    end = start + limit - 1
+    
+    query = supabase.table("recipes").select("*", count="exact")
     
     if cuisine and cuisine != "All":
-        filtered = [r for r in filtered if r.get("cuisine", "") == cuisine]
+        query = query.eq("cuisine", cuisine)
         
     if search:
-        s = search.lower()
-        filtered = [
-            r for r in filtered 
-            if s in r.get("title", "").lower() or 
-               any(s in i.lower() for i in r.get("ingredients", []))
-        ]
+        # Simple ilike search on title. Full text search can be used if configured.
+        query = query.ilike("title", f"%{search}%")
         
-    total = len(filtered)
-    start = (page - 1) * limit
-    data = filtered[start:start + limit]
+    response = query.range(start, end).execute()
+    
+    data = response.data
+    total = response.count if response.count is not None else len(data)
     
     import math
     return {
@@ -163,7 +166,12 @@ async def get_recipes(page: int = 1, limit: int = 12, cuisine: str = "All", sear
 
 @app.get("/api/recipes/detail/{recipe_id}")
 async def get_recipe_detail(recipe_id: str):
-    for r in RECIPES_DATA:
-        if r.get("id") == recipe_id:
-            return r
-    raise HTTPException(status_code=404, detail="Recipe not found")
+    if not supabase:
+        raise HTTPException(status_code=500, detail="Database connection not configured")
+        
+    response = supabase.table("recipes").select("*").eq("id", recipe_id).execute()
+    
+    if not response.data:
+        raise HTTPException(status_code=404, detail="Recipe not found")
+        
+    return response.data[0]
