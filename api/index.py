@@ -81,11 +81,15 @@ async def generate_recipe(req: RecipeRequest):
     
     try:
         model = genai.GenerativeModel('gemini-flash-latest')
-        prompt = f"""You are an expert chef. Generate a creative recipe using exactly these ingredients (and basic pantry staples if needed): {ingredients_str}.
+        prompt = f"""You are an expert culinary scientist. Generate a highly detailed recipe using exactly these ingredients (and basic pantry staples if needed): {ingredients_str}.
 Return the response in strictly valid JSON format with the following keys:
 - "title": a creative string title
-- "ingredients": an array of strings (the exact ingredients and measurements needed)
+- "ingredients": an array of strings (exact ingredients with measurements)
 - "directions": an array of strings (step-by-step instructions)
+- "chemistry_notes": a string paragraph explaining the molecular interactions and flavor development
+- "chemistry": an object containing: "maillardTemp" (string), "phLevel" (number 1-14), "emulsionStability" (string), "gelatinizationTemp" (string), and "keyFlavors" (array of strings)
+- "allergySwaps": an array of objects, each containing: "allergen" (string), "original" (string), "substitute" (string), "macroImpact" (string)
+- "heatRequirement": an object containing: "cookingMethod" (string), "recommendedVessel" (string), "preheatDuration" (string), "targetInternalTemp" (string), "stovetopSetting" (string)
 
 Do not include any Markdown formatting like ```json or anything else. Just the raw JSON string."""
 
@@ -106,6 +110,10 @@ Do not include any Markdown formatting like ```json or anything else. Just the r
             "title": recipe_data.get("title", f"AI Recipe for {ingredients_str}"),
             "ingredients": recipe_data.get("ingredients", req.ingredients),
             "directions": recipe_data.get("directions", ["Improvise with the ingredients above."]),
+            "chemistry_notes": recipe_data.get("chemistry_notes"),
+            "chemistry": recipe_data.get("chemistry"),
+            "allergySwaps": recipe_data.get("allergySwaps"),
+            "heatRequirement": recipe_data.get("heatRequirement"),
             "raw_output": response.text
         }
     except Exception as e:
