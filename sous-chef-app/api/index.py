@@ -199,4 +199,42 @@ async def get_recipe_detail(recipe_id: str):
     if not response.data:
         raise HTTPException(status_code=404, detail="Recipe not found")
         
-    return response.data[0]
+    recipe = response.data[0]
+    
+    # Generate missing AI insights on-the-fly
+    if GEMINI_API_KEY and not recipe.get("chemistry_notes"):
+        try:
+            model = genai.GenerativeModel('gemini-flash-latest')
+            ingredients_raw = recipe.get("ingredients", [])
+            ingredients_str = ingredients_raw if isinstance(ingredients_raw, str) else ", ".join(ingredients_raw)
+            title = recipe.get("title", "this dish")
+            
+            prompt = f"""You are an expert culinary scientist. Analyze the recipe "{title}" with these ingredients: {ingredients_str}.
+Return the response in strictly valid JSON format with the following keys:
+- "chemistry_notes": a string paragraph explaining the molecular interactions and flavor development
+- "chemistry": an object containing: "maillardTemp" (string), "phLevel" (number 1-14), "emulsionStability" (string), "gelatinizationTemp" (string), and "keyFlavors" (array of strings)
+- "allergySwaps": an array of objects, each containing: "allergen" (string), "original" (string), "substitute" (string), "macroImpact" (string)
+- "heatRequirement": an object containing: "cookingMethod" (string), "recommendedVessel" (string), "preheatDuration" (string), "targetInternalTemp" (string), "stovetopSetting" (string)
+
+Do not include any Markdown formatting like ```json or anything else. Just the raw JSON string."""
+
+            ai_response = model.generate_content(prompt)
+            text = ai_response.text.strip()
+            
+            if text.startswith("```json"):
+                text = text[7:]
+            elif text.startswith("```"):
+                text = text[3:]
+            if text.endswith("```"):
+                text = text[:-3]
+                
+            insights = json.loads(text.strip())
+            recipe["chemistry_notes"] = insights.get("chemistry_notes")
+            recipe["chemistry"] = insights.get("chemistry")
+            recipe["allergySwaps"] = insights.get("allergySwaps")
+            recipe["heatRequirement"] = insights.get("heatRequirement")
+            
+        except Exception as e:
+            print(f"Failed to generate recipe insights: {e}")
+            
+    return recipe
