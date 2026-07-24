@@ -88,7 +88,7 @@ async def generate_recipe(req: RecipeRequest):
         return {
             "title": f"AI Recipe for {ingredients_str}",
             "ingredients": req.ingredients,
-            "directions": "Improvise with the ingredients above. (AI synthesis is disabled in Serverless environment).",
+            "directions": ["Improvise with the ingredients above. (AI synthesis is disabled in Serverless environment)."],
             "raw_output": ""
         }
     
