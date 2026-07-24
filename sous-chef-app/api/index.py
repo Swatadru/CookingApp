@@ -80,7 +80,7 @@ async def generate_recipe(req: RecipeRequest):
         }
     
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-flash-latest')
         prompt = f"""You are an expert chef. Generate a creative recipe using exactly these ingredients (and basic pantry staples if needed): {ingredients_str}.
 Return the response in strictly valid JSON format with the following keys:
 - "title": a creative string title
