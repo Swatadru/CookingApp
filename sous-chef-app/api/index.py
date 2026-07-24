@@ -116,10 +116,13 @@ async def generate_recipe(req: RecipeRequest):
         ingredients = parts[1].replace("Ingredients: ", "").strip().split(", ")
         directions = parts[2].replace("Directions: ", "").strip()
         
+        # Split directions into a list of steps for the frontend
+        directions_list = [step.strip() + "." for step in directions.split(". ") if step.strip()]
+        
         return {
             "title": title,
             "ingredients": ingredients,
-            "directions": directions,
+            "directions": directions_list,
             "raw_output": generated_text
         }
     except Exception:
@@ -127,7 +130,7 @@ async def generate_recipe(req: RecipeRequest):
         return {
             "title": f"AI Recipe for {ingredients_str}",
             "ingredients": req.ingredients,
-            "directions": "Improvise with the ingredients above. The model output could not be parsed.",
+            "directions": ["Improvise with the ingredients above. The model output could not be parsed."],
             "raw_output": generated_text
         }
 
