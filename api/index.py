@@ -3,6 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import json
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 try:
     from transformers import T5Tokenizer, T5ForConditionalGeneration
 except ImportError:
@@ -58,16 +62,19 @@ async def startup_event():
 
     # Load ML Model
     try:
-        model_path = "./trained_recipe_model_final"
-        if os.path.exists(model_path):
-            print(f"Loading trained model from {model_path}...")
-            TOKENIZER = T5Tokenizer.from_pretrained(model_path)
-            MODEL = T5ForConditionalGeneration.from_pretrained(model_path)
-            print("Model loaded successfully.")
+        if T5Tokenizer is None or T5ForConditionalGeneration is None:
+            print("Transformers library not installed. Skipping model load.")
         else:
-            print(f"Warning: Trained model not found at {model_path}. Using base t5-small (generation will be poor until you train it).")
-            TOKENIZER = T5Tokenizer.from_pretrained("t5-small")
-            MODEL = T5ForConditionalGeneration.from_pretrained("t5-small")
+            model_path = "./trained_recipe_model_final"
+            if os.path.exists(model_path):
+                print(f"Loading trained model from {model_path}...")
+                TOKENIZER = T5Tokenizer.from_pretrained(model_path)
+                MODEL = T5ForConditionalGeneration.from_pretrained(model_path)
+                print("Model loaded successfully.")
+            else:
+                print(f"Warning: Trained model not found at {model_path}. Using base t5-small (generation will be poor until you train it).")
+                TOKENIZER = T5Tokenizer.from_pretrained("t5-small")
+                MODEL = T5ForConditionalGeneration.from_pretrained("t5-small")
     except Exception as e:
         print(f"Error loading model: {e}")
 
@@ -148,7 +155,7 @@ async def get_recipes(page: int = 1, limit: int = 12, cuisine: str = "All", sear
     start = (page - 1) * limit
     end = start + limit - 1
     
-    query = supabase.table("recipes").select("*", count="exact")
+    query = supabase.table("recipes").select("*", count="estimated")
     
     if cuisine and cuisine != "All":
         query = query.eq("cuisine", cuisine)

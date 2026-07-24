@@ -17,10 +17,7 @@ export const Navigation = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu on route change
-  useEffect(() => {
-    setMobileMenuOpen(false);
-  }, [location.pathname]);
+    // Replaced useEffect watching location.pathname with onClick handlers on links
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
@@ -161,6 +158,7 @@ export const Navigation = () => {
                   <Link
                     key={idx}
                     to={link.href}
+                    onClick={() => setMobileMenuOpen(false)}
                     className={`flex items-center gap-4 px-4 py-4 rounded-2xl text-lg font-body-md transition-all duration-300 ${
                       isActive
                         ? 'bg-secondary/10 text-secondary font-semibold'
@@ -179,6 +177,7 @@ export const Navigation = () => {
             <div className="pt-6 border-t border-outline-variant/20">
               <Link
                 to="/chat"
+                onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center justify-center gap-2 bg-primary text-surface px-6 py-4 rounded-2xl font-label-sm text-base shadow-md shimmer-btn w-full"
               >
                 <span className="material-symbols-outlined text-base text-secondary">smart_toy</span>

@@ -24,9 +24,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
   useEffect(() => {
     if (isOpen && recipe) {
-      if (recipe.ingredients && recipe.ingredients.length > 0) {
-        setDetailedRecipe(recipe);
-      } else {
+      if (!recipe.ingredients || recipe.ingredients.length === 0) {
         setIsLoading(true);
         apiClient.getRecipeById(recipe.id.toString())
           .then(data => {

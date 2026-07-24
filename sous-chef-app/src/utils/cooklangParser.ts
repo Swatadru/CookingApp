@@ -32,20 +32,20 @@ export function parseCooklang(source: string): ParsedRecipe {
 
     // Very basic Cooklang regex parsing for demonstration
     // Ingredients: @ingredient{quantity%unit}
-    const ingredientRegex = /@([^\{]+)\{([^%\}]+)%([^}]+)\}/g;
+    const ingredientRegex = /@([^{]+)\{([^%}]+)%([^}]+)\}/g;
     let match;
     while ((match = ingredientRegex.exec(line)) !== null) {
       step.ingredients.push({ name: match[1], quantity: match[2], unit: match[3] });
     }
 
     // Cookware: #cookware{}
-    const cookwareRegex = /#([^\{]+)\{\}/g;
+    const cookwareRegex = /#([^{]+)\{\}/g;
     while ((match = cookwareRegex.exec(line)) !== null) {
       step.cookware.push({ name: match[1] });
     }
 
     // Timers: ~timer{duration%unit}
-    const timerRegex = /~([^\{]*)\{([^%\}]+)%([^}]+)\}/g;
+    const timerRegex = /~([^{]*)\{([^%}]+)%([^}]+)\}/g;
     while ((match = timerRegex.exec(line)) !== null) {
       step.timers.push({ name: match[1], duration: match[2], unit: match[3] });
     }

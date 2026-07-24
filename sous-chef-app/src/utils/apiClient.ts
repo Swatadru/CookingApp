@@ -19,7 +19,7 @@ export interface ChemistryMetrics {
 }
 
 export interface PaginatedRecipes {
-  data: any[];
+  data: unknown[];
   total: number;
   page: number;
   limit: number;
@@ -86,13 +86,13 @@ export interface CuisineClassificationResult {
 }
 
 // In-memory mock database for fallback when FastAPI backend is offline
-let mockUsers: BackendUser[] = [
+const mockUsers: BackendUser[] = [
   { user_id: 'u_101', username: 'Chef Mario', created_at: '2026-06-01T10:00:00Z' },
   { user_id: 'u_102', username: 'Chef Swatadru', created_at: '2026-06-15T12:30:00Z' },
   { user_id: 'u_103', username: 'Chef Elena Vance', created_at: '2026-07-01T09:15:00Z' },
 ];
 
-let mockSessions: CookingSession[] = [
+const mockSessions: CookingSession[] = [
   {
     session_id: 'sess_991',
     user_id: 'u_101',
@@ -101,7 +101,7 @@ let mockSessions: CookingSession[] = [
   },
 ];
 
-let mockRecipeHistories: Record<string, RecipeSnapshot[]> = {
+const mockRecipeHistories: Record<string, RecipeSnapshot[]> = {
   sess_991: [
     {
       history_id: 'snap_1',
@@ -128,12 +128,12 @@ let mockRecipeHistories: Record<string, RecipeSnapshot[]> = {
   ],
 };
 
-let mockUndoPointers: Record<string, number> = {
+const mockUndoPointers: Record<string, number> = {
   sess_991: 1, // index of current active history snapshot
 };
 
 // Helper for fetch with JSON error handling
-async function postJSON<T>(url: string, body: any, fallback: () => T): Promise<T> {
+async function postJSON<T>(url: string, body: unknown, fallback: () => T): Promise<T> {
   try {
     const res = await fetch(url, {
       method: 'POST',
@@ -191,7 +191,7 @@ export const apiClient = {
   },
 
   getRecipeById: async (recipeId: string) => {
-    return getJSON<any>(`/api/recipes/detail/${recipeId}`, () => ({} as any));
+    return getJSON<unknown>(`/api/recipes/detail/${recipeId}`, () => ({} as unknown));
   },
 
   // 1. USER MANAGEMENT
@@ -437,9 +437,9 @@ export const apiClient = {
     carbs: number;
     chemistry_notes?: string;
     model?: string;
-    chemistry?: any;
-    heatRequirement?: any;
-    allergySwaps?: any;
+    chemistry?: unknown;
+    heatRequirement?: unknown;
+    allergySwaps?: unknown;
   }> {
     return postJSON(
       `/api/generate-recipe`,

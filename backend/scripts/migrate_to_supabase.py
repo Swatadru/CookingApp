@@ -1,8 +1,6 @@
-import os
 import psycopg2
 import time
 import requests
-import json
 from datetime import datetime
 
 # ── Credentials ──────────────────────────────────────────────

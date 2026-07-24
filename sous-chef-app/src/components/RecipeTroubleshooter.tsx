@@ -33,15 +33,18 @@ export const RecipeTroubleshooter = ({
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
+  const [prevTitle, setPrevTitle] = useState(recipeTitle);
+
   // Reset when recipe changes
-  useEffect(() => {
+  if (recipeTitle !== prevTitle) {
+    setPrevTitle(recipeTitle);
     setMessages([
       {
         role: 'ai',
         text: `Hi there! I'm your cooking assistant for **"${recipeTitle}"**. Ask me anything — substitutions, technique tips, timing, or pairing ideas.`,
       },
     ]);
-  }, [recipeTitle]);
+  }
 
   // Auto-scroll to bottom
   useEffect(() => {

@@ -3,3 +3,7 @@ uvicorn
 pydantic
 pandas
 supabase
+python-dotenv
+transformers
+torch
+sentencepiece
