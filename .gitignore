@@ -33,3 +33,9 @@ coverage/
 # IDE specific for agent
 .agents/
 scratch/
+
+# Large ML files and Datasets
+backend/models/
+backend/datasets/
+backend/processed_data/
+backend/database/nutrition_lookup.json
